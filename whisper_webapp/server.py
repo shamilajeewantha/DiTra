@@ -8,14 +8,51 @@ import uvicorn
 from fastapi.responses import HTMLResponse
 import time
 import sys
+import torchaudio
+import whisper
+import json
 
-DURATION = 5  # Duration in seconds for which audio is saved
+DURATION = 30  # Duration in seconds for which audio is saved
 
 # Set up logging
-logging.basicConfig(level=logging.DEBUG)  # Set to DEBUG to capture more details
+log_filename = "transcription_log.txt"
+logging.basicConfig(
+    level=logging.INFO,  # Change to DEBUG for more details
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(log_filename),  # Log to file
+        # logging.StreamHandler(sys.stdout)  # Log to console
+    ]
+)
+
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
+
+model = whisper.load_model("tiny")
+
+def whisper_transcribe(waveform, sample_rate):
+    # Convert stereo to mono if needed
+    if waveform.shape[0] > 1:
+        waveform = waveform.mean(dim=0, keepdim=True)
+
+    waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform)
+    audio = waveform.squeeze().numpy()    
+
+    result = model.transcribe(audio, word_timestamps=True)
+
+    logger.info(f"Transcription result: ")
+    # logger.info(result["text"])
+
+    for segment in result['segments']:
+        for word_info in segment['words']:
+            logger.info(json.dumps({
+                "word": word_info["word"],
+                "start": float(word_info["start"]),
+                "end": float(word_info["end"]),
+                "probability": float(word_info["probability"])
+            }))
+
 
 # Function to decode audio from base64
 def decode_audio(data: str) -> np.ndarray:
@@ -31,10 +68,15 @@ def save_audio_from_buffer(audio_buffer: io.BytesIO, start_time: float, end_time
     try:
         # Convert the in-memory audio data to WAV format
         audio = AudioSegment.from_file(audio_buffer, format="raw", frame_rate=44100, channels=1, sample_width=2)
-        # Save the audio with the given time range in the filename
-        file_name = f"received_audio_{int(start_time)}-{int(end_time)}s.wav"
-        audio.export(file_name, format="wav")
-        logger.info(f"Saved as {file_name}")
+        # Export to the in-memory buffer in WAV format
+        wav_buffer = io.BytesIO()
+        audio.export(wav_buffer, format="wav")
+        wav_buffer.seek(0)  # Go back to the beginning of the buffer
+
+        # Load audio directly from the WAV in-memory buffer using torchaudio
+        waveform, sample_rate = torchaudio.load(wav_buffer)
+        whisper_transcribe(waveform, sample_rate)
+
     except Exception as e:
         logger.error(f"Error during conversion: {e}")
 
