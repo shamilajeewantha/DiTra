@@ -1,0 +1,5 @@
+10_Effective_Interactions_with_Patients_YouTube.wav
+__pycache__/
+*.pyc
+audio.wav
+simple_webapp/received_audio.wav
