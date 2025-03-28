@@ -6,8 +6,13 @@ from pydub import AudioSegment
 import io
 import uvicorn
 from fastapi.responses import HTMLResponse
+import logging
 
 app = FastAPI()
+
+logging.basicConfig(level=logging.DEBUG)  # Set to DEBUG to capture more details
+logger = logging.getLogger(__name__)
+
 
 # Function to decode audio from base64
 def decode_audio(data: str) -> np.ndarray:
@@ -26,6 +31,8 @@ async def websocket_endpoint(websocket: WebSocket):
     audio_buffer = io.BytesIO()  # In-memory buffer to accumulate audio data
     try:
         while True:
+            logger.info("Waiting for incoming data...")
+            
             # Receive the base64 encoded audio data
             base64_audio_data = await websocket.receive_text()
             # Decode the audio
