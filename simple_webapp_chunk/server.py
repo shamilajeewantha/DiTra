@@ -9,7 +9,7 @@ from fastapi.responses import HTMLResponse
 import time
 import sys
 
-DURATION = 5  # Duration in seconds for which audio is saved
+DURATION = 10  # Duration in seconds for which audio is saved
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)  # Set to DEBUG to capture more details
@@ -21,8 +21,13 @@ app = FastAPI()
 def decode_audio(data: str) -> np.ndarray:
     # Decode chunk encoded in base64
     byte_samples = base64.b64decode(data.encode("utf-8"))
+    
     # Recover array from bytes
     samples = np.frombuffer(byte_samples, dtype=np.float32)
+        
+    # Convert float32 PCM to int16 PCM
+    samples = np.int16(samples * 32767)  # Normalize and convert
+
     return samples
 
 # Function to save audio when buffer hits 5 seconds
@@ -30,7 +35,12 @@ def save_audio_from_buffer(audio_buffer: io.BytesIO, start_time: float, end_time
     audio_buffer.seek(0)  # Go back to the beginning of the buffer
     try:
         # Convert the in-memory audio data to WAV format
-        audio = AudioSegment.from_file(audio_buffer, format="raw", frame_rate=44100, channels=1, sample_width=2)
+        audio = AudioSegment.from_raw(
+                audio_buffer, 
+                sample_width=2,  # 16-bit PCM
+                frame_rate=44100,
+                channels=1
+            )
         # Save the audio with the given time range in the filename
         file_name = f"received_audio_{int(start_time)}-{int(end_time)}s.wav"
         audio.export(file_name, format="wav")
