@@ -60,6 +60,9 @@ def decode_audio(data: str) -> np.ndarray:
     byte_samples = base64.b64decode(data.encode("utf-8"))
     # Recover array from bytes
     samples = np.frombuffer(byte_samples, dtype=np.float32)
+        
+    samples = np.int16(samples * 32767)  # Normalize and convert
+
     return samples
 
 # Function to save audio when buffer hits 5 seconds
@@ -67,7 +70,12 @@ def save_audio_from_buffer(audio_buffer: io.BytesIO, start_time: float, end_time
     audio_buffer.seek(0)  # Go back to the beginning of the buffer
     try:
         # Convert the in-memory audio data to WAV format
-        audio = AudioSegment.from_file(audio_buffer, format="raw", frame_rate=44100, channels=1, sample_width=2)
+        audio = AudioSegment.from_raw(
+                audio_buffer, 
+                sample_width=2,  # 16-bit PCM
+                frame_rate=44100,
+                channels=1
+            )
         # Export to the in-memory buffer in WAV format
         wav_buffer = io.BytesIO()
         audio.export(wav_buffer, format="wav")
