@@ -1,0 +1,3 @@
+2025-04-03 19:23:51,913 - INFO - Client connected
+2025-04-03 19:23:52,075 - ERROR - Relay WebSocket connection closed: no close frame received or sent
+2025-04-03 19:23:52,075 - INFO - Client disconnected
