@@ -1,0 +1,23 @@
+2025-04-07 20:37:41,289 - INFO - Client connected
+2025-04-07 20:37:51,649 - ERROR - Error receiving audio: (1012, None)
+2025-04-07 20:37:51,650 - INFO - Connection closed. Saving remaining audio...
+2025-04-07 20:37:57,683 - INFO - Transcription result: 
+2025-04-07 20:37:57,683 - INFO - {"word": " And", "start": 3.1599999999999997, "end": 3.56, "probability": 0.03814589977264404}
+2025-04-07 20:37:57,683 - INFO - {"word": " yes,", "start": 3.56, "end": 3.86, "probability": 0.8698882460594177}
+2025-04-07 20:37:57,683 - INFO - {"word": " there", "start": 3.98, "end": 4.1, "probability": 0.5468675494194031}
+2025-04-07 20:37:57,683 - INFO - {"word": " are", "start": 4.1, "end": 4.14, "probability": 0.7681443691253662}
+2025-04-07 20:37:57,684 - INFO - {"word": " no", "start": 4.14, "end": 4.26, "probability": 0.9188967943191528}
+2025-04-07 20:37:57,684 - INFO - {"word": " of", "start": 4.26, "end": 4.38, "probability": 0.1845133900642395}
+2025-04-07 20:37:57,685 - INFO - {"word": " these", "start": 4.38, "end": 4.62, "probability": 0.9829141497612}
+2025-04-07 20:37:57,685 - INFO - {"word": " questions,", "start": 4.62, "end": 5.1, "probability": 0.9957971572875977}
+2025-04-07 20:37:57,685 - INFO - {"word": " but", "start": 5.48, "end": 5.52, "probability": 0.9791471362113953}
+2025-04-07 20:37:57,685 - INFO - {"word": " they're", "start": 5.52, "end": 5.7, "probability": 0.9084942936897278}
+2025-04-07 20:37:57,685 - INFO - {"word": " just", "start": 5.7, "end": 5.94, "probability": 0.9873366951942444}
+2025-04-07 20:37:57,685 - INFO - {"word": " kind", "start": 5.94, "end": 6.12, "probability": 0.9597196578979492}
+2025-04-07 20:37:57,685 - INFO - {"word": " of", "start": 6.12, "end": 6.18, "probability": 0.9909495711326599}
+2025-04-07 20:37:57,685 - INFO - {"word": " about", "start": 6.18, "end": 6.46, "probability": 0.9393324851989746}
+2025-04-07 20:37:57,685 - INFO - {"word": " the", "start": 6.46, "end": 6.6, "probability": 0.9647376537322998}
+2025-04-07 20:37:57,685 - INFO - {"word": " rest", "start": 6.6, "end": 6.8, "probability": 0.9899638295173645}
+2025-04-07 20:37:57,685 - INFO - {"word": " of", "start": 6.8, "end": 7.0, "probability": 0.8312456607818604}
+2025-04-07 20:37:57,685 - INFO - {"word": " him,", "start": 7.0, "end": 7.2, "probability": 0.1549082100391388}
+2025-04-07 20:37:57,685 - INFO - {"word": " Bob.", "start": 7.28, "end": 7.48, "probability": 0.7691283822059631}

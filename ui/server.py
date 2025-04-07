@@ -35,6 +35,10 @@ model = whisper.load_model("tiny")
 
 diarization_data = []
 diarization_start_time = None
+local_start_time = 0
+previous_speaker = None
+accumulated_duration = 0.0
+
 
 def whisper_transcribe(waveform, sample_rate):
     # Convert stereo to mono if needed
@@ -157,7 +161,7 @@ async def websocket_endpoint(websocket: WebSocket):
                 if diar_data:
                     lines = diar_data.splitlines()
                     for line in lines:
-                        global diarization_data, diarization_start_time
+                        global diarization_data, diarization_start_time, previous_speaker, accumulated_duration, local_start_time
                         # logger2.info(f"Processed diarization data: {line}")
                         parts = line.split() 
 
@@ -169,16 +173,27 @@ async def websocket_endpoint(websocket: WebSocket):
 
                             if diarization_start_time is None:
                                 diarization_start_time = start_time
+                                local_start_time = start_time
                                 logger2.info(f"Start time: {diarization_start_time}")
 
-                            # Append the extracted values to the diarization_data list
-                            diarization_data.append({
-                                'start_time': round(start_time-diarization_start_time, 2),
-                                'duration': duration,
-                                'speaker_label': speaker_label
-                            })
+                            if previous_speaker is None:
+                                previous_speaker = speaker_label
 
-                            logger2.info(f"Processed diarization data: Start time: {diarization_data[-1]['start_time']}, Duration: {diarization_data[-1]['duration']}, Speaker: {diarization_data[-1]['speaker_label']}")
+                            if speaker_label == previous_speaker:
+                                accumulated_duration += duration
+                            else:
+                                # Append the extracted values to the diarization_data list
+                                diarization_data.append({
+                                    'start_time': round(local_start_time-diarization_start_time, 2),
+                                    'duration': accumulated_duration,
+                                    'speaker_label': previous_speaker
+                                })
+
+                                logger2.info(f"Processed diarization data: Start time: {diarization_data[-1]['start_time']}, Duration : {diarization_data[-1]['duration']}, Speaker: {diarization_data[-1]['speaker_label']}")
+
+                                previous_speaker = speaker_label
+                                accumulated_duration = duration
+                                local_start_time = start_time
 
                         except ValueError as e:
                             logger2.error(f"Error parsing line: {line}, Error: {str(e)}")
