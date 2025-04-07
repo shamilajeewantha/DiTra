@@ -64,7 +64,7 @@
       // WebSocket Server URL
       const SOCKET_trans_URL = "ws://localhost:8000/ws";
       const SOCKET_diar_URL = "ws://127.0.0.1:7007";
-      // const SOCKET_diar_URL = "ws://localhost:8000/ws_diar";
+      const SOCKET_diartext_URL = "ws://localhost:8000/ws_diar";
 
       function base64EncodeAudio(audioBuffer) {
         return btoa(
@@ -78,6 +78,12 @@
         }
         if (socket_diar && socket_diar.readyState === WebSocket.OPEN) {
           socket_diar.send(base64EncodeAudio(audioData));
+        }
+      }
+
+      function sendTextToWebSocket(textData) {
+        if (socket_diartext && socket_diartext.readyState === WebSocket.OPEN) {
+          socket_diartext.send(textData);
         }
       }
 
@@ -136,6 +142,16 @@
 
             socket_trans = new WebSocket(SOCKET_trans_URL);
             socket_diar = new WebSocket(SOCKET_diar_URL);
+            socket_diartext = new WebSocket(SOCKET_diartext_URL);
+
+            socket_diartext.onopen = () =>
+              console.log("Connected to WebSocket for diarization text.");
+            socket_diartext.onerror = (error) =>
+              console.error("WebSocket Error: " + error.message);
+            socket_diartext.onmessage = (event) =>
+              console.log("Message from diar text server:", event.data);
+            socket_diartext.onclose = () =>
+              console.log("WebSocket Connection Closed.");
 
             socket_diar.onopen = () =>
               (status_diarDiv.textContent =
@@ -143,8 +159,11 @@
             socket_diar.onerror = (error) =>
               (status_diarDiv.textContent =
                 "WebSocket Error: " + error.message);
-            socket_diar.onmessage = (event) =>
-              console.log("Message from diar server:", event.data);
+            socket_diar.onmessage = (event) => {
+              console.log("Message from diar server:", event.data); // Moved inside the onmessage handler.
+              sendTextToWebSocket(event.data);
+            };
+
             socket_diar.onclose = () =>
               (status_diarDiv.textContent = "WebSocket Connection Closed.");
 

@@ -14,18 +14,20 @@ import json
 
 DURATION = 30  # Duration in seconds for which audio is saved
 
-# Set up logging
-log_filename = "transcription_log.txt"
-logging.basicConfig(
-    level=logging.INFO,  # Change to DEBUG for more details
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(log_filename),  # Log to file
-        # logging.StreamHandler(sys.stdout)  # Log to console
-    ]
-)
+# Set up the first logger for transcription log
+logger1 = logging.getLogger("logger1")
+logger1.setLevel(logging.INFO)
+file_handler1 = logging.FileHandler("transcription_log.txt")
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+file_handler1.setFormatter(formatter)
+logger1.addHandler(file_handler1)
 
-logger = logging.getLogger(__name__)
+# Set up the second logger for a second log
+logger2 = logging.getLogger("logger2")
+logger2.setLevel(logging.INFO)
+file_handler2 = logging.FileHandler("diarization_log.txt")
+file_handler2.setFormatter(formatter)
+logger2.addHandler(file_handler2)
 
 app = FastAPI()
 
@@ -41,12 +43,12 @@ def whisper_transcribe(waveform, sample_rate):
 
     result = model.transcribe(audio, word_timestamps=True)
 
-    logger.info(f"Transcription result: ")
+    logger1.info(f"Transcription result: ")
     # logger.info(result["text"])
 
     for segment in result['segments']:
         for word_info in segment['words']:
-            logger.info(json.dumps({
+            logger1.info(json.dumps({
                 "word": word_info["word"],
                 "start": float(word_info["start"]),
                 "end": float(word_info["end"]),
@@ -86,13 +88,13 @@ def save_audio_from_buffer(audio_buffer: io.BytesIO, start_time: float, end_time
         whisper_transcribe(waveform, sample_rate)
 
     except Exception as e:
-        logger.error(f"Error during conversion: {e}")
+        logger1.error(f"Error during conversion: {e}")
 
 # WebSocket endpoint
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
-    logger.info("Client connected")
+    logger1.info("Client connected")
 
     audio_buffer = io.BytesIO()  # In-memory buffer to accumulate audio data
     start_time = 0  # Record the start time of the buffer
@@ -115,7 +117,7 @@ async def websocket_endpoint(websocket: WebSocket):
 
                     # If the buffer reaches 5 seconds, save it and reset
                     if buffer_duration >= DURATION:
-                        logger.info(f"{DURATION} seconds reached. Saving audio...")
+                        logger1.info(f"{DURATION} seconds reached. Saving audio...")
                         end_time = start_time + DURATION
                         save_audio_from_buffer(audio_buffer, start_time, end_time)
                         audio_buffer.seek(0)  # Reset the buffer
@@ -123,19 +125,46 @@ async def websocket_endpoint(websocket: WebSocket):
                         start_time = end_time  # Reset the start time
                         buffer_duration = 0  # Reset the duration
                 else:
-                    logger.warning("No audio data received. Check frontend sending.")
+                    logger1.warning("No audio data received. Check frontend sending.")
             
             except Exception as e:
-                logger.error(f"Error receiving audio: {e}")
+                logger1.error(f"Error receiving audio: {e}")
                 break
 
     except Exception as e:
-        logger.error(f"Connection closed: {e}")
+        logger1.error(f"Connection closed: {e}")
     finally:
         if buffer_duration > 0:  # Save any remaining audio when the connection ends
-            logger.info("Connection closed. Saving remaining audio...")
+            logger1.info("Connection closed. Saving remaining audio...")
             end_time = start_time + buffer_duration
             save_audio_from_buffer(audio_buffer, start_time, end_time)
+
+
+# WebSocket endpoint
+@app.websocket("/ws_diar")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    logger2.info("Diarization Client connected")
+
+    try:
+        while True:
+            try:
+                # Receive the base64 encoded audio data
+                diar_data = await websocket.receive_text()
+                if diar_data:
+                    lines = diar_data.splitlines()
+                    for line in lines:
+                            data = line
+                            logger2.info(f"Processed diarization data: {data}")
+            except Exception as e:
+                logger2.error(f"Error receiving diarization data: {e}")
+                break
+    except Exception as e:
+        logger2.error(f"Diarization Connection closed: {e}")
+    finally:
+        logger2.info("Diarization Connection closed.")
+
+
 
 # Serve the frontend HTML file
 @app.get("/")
