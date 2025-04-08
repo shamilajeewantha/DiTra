@@ -50,17 +50,37 @@ def whisper_transcribe(waveform, sample_rate):
 
     result = model.transcribe(audio, word_timestamps=True)
 
-    logger1.info(f"Transcription result: ")
-    # logger.info(result["text"])
+    logger1.info(f"Transcription result with speaker tags:")
 
+    # Loop through each segment in the transcription
     for segment in result['segments']:
         for word_info in segment['words']:
+            word_start = float(word_info["start"])
+            word_end = float(word_info["end"])
+            word = word_info["word"]
+            probability = float(word_info["probability"])
+
+            # Default speaker if none is matched
+            speaker = "unknown"
+
+            # Match with diarization data
+            for entry in diarization_data:
+                diar_start = entry["start_time"]
+                diar_end = diar_start + entry["duration"]
+
+                # If the word falls within this diarization segment
+                if diar_start <= word_start <= diar_end:
+                    speaker = entry["speaker_label"]
+                    break
+
             logger1.info(json.dumps({
-                "word": word_info["word"],
-                "start": float(word_info["start"]),
-                "end": float(word_info["end"]),
-                "probability": float(word_info["probability"])
+                "word": word,
+                "start": word_start,
+                "end": word_end,
+                "probability": probability,
+                "speaker": speaker
             }))
+
 
 
 # Function to decode audio from base64
@@ -185,7 +205,7 @@ async def websocket_endpoint(websocket: WebSocket):
                                 # Append the extracted values to the diarization_data list
                                 diarization_data.append({
                                     'start_time': round(local_start_time-diarization_start_time, 2),
-                                    'duration': accumulated_duration,
+                                    'duration': round(accumulated_duration, 2),
                                     'speaker_label': previous_speaker
                                 })
 
@@ -201,8 +221,6 @@ async def websocket_endpoint(websocket: WebSocket):
                         if diarization_start_time is None:
                             diarization_start_time = start_time
                             logger2.info(f"Start time: {diarization_start_time}")                            
-
-
             except Exception as e:
                 logger2.error(f"Error receiving diarization data: {e}")
                 break

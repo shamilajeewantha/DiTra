@@ -7,3 +7,6 @@
 ## whisper webapp sends 30s chunks through the models and logs transcription instead of saving them as wav.
 
 ## next I will do VAD
+
+python .\server.py
+diart.serve --host 0.0.0.0 --port 7007
