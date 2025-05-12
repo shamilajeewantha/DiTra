@@ -1,0 +1,7 @@
+conda env create -f diart/environment.yml
+conda activate diart
+
+pip install diart
+
+diart.serve --host 0.0.0.0 --port 7007
+python server.py

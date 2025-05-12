@@ -4,3 +4,4 @@ __pycache__/
 audio.wav
 simple_webapp/received_audio.wav
 whisper_webapp/transcription_log.txt
+*txt

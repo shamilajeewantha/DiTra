@@ -82,10 +82,18 @@
       }
 
       function sendTextToWebSocket(textData) {
-        if (socket_diartext && socket_diartext.readyState === WebSocket.OPEN) {
-          socket_diartext.send(textData);
-        }
-      }
+  try {
+    if (socket_diartext && socket_diartext.readyState === WebSocket.OPEN) {
+      socket_diartext.send(textData);
+      console.log("send rttm text")
+    } else {
+      console.warn("WebSocket is not open or not initialized.");
+    }
+  } catch (error) {
+    console.error("Error sending data through WebSocket:", error);
+  }
+}
+
 
       function visualize() {
         if (!analyser) return;
