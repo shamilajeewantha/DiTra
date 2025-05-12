@@ -17,6 +17,33 @@
         background: #111;
         border-radius: 8px;
       }
+
+    #transcript {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      max-height: 80vh;
+    }
+    .speaker-block {
+      margin-bottom: 20px;
+    }
+    .speaker-label {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .timestamp {
+      color: #888;
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    .sentence {
+      margin-top: 5px;
+    }
     </style>
   </head>
   <body>
@@ -43,6 +70,7 @@
 
       <div id="status" class="mt-4 text-gray-600"></div>
       <div id="status_diar" class="mt-4 text-gray-600"></div>
+      <div id="transcript">Waiting for transcription...</div>
     </div>
 
     <script>
@@ -52,6 +80,7 @@
       const status_diarDiv = document.getElementById("status_diar");
       const canvas = document.getElementById("visualizer");
       const canvasCtx = canvas.getContext("2d");
+      const transcriptDiv = document.getElementById("transcript");
 
       let audioContext,
         mediaStream,
@@ -85,7 +114,7 @@
   try {
     if (socket_diartext && socket_diartext.readyState === WebSocket.OPEN) {
       socket_diartext.send(textData);
-      console.log("send rttm text")
+      console.log("send rttm text to server")
     } else {
       console.warn("WebSocket is not open or not initialized.");
     }
@@ -194,9 +223,66 @@
               statusDiv.innerHTML = "⚠️ WebSocket Error: " + error.message;
             };
 
-            socket_trans.onmessage = (event) =>
-              console.log("Message from trans server:", event.data);
+            socket_trans.onmessage = (event) => {
+    try {
+      const data = JSON.parse(event.data);
+      if (data.transcript && Array.isArray(data.transcript)) {
+        const transcript = data.transcript;
 
+        // Group consecutive words by speaker
+        let grouped = [];
+        let currentSpeaker = transcript[0].speaker;
+        let currentWords = [transcript[0].word];
+        let startTime = transcript[0].start;
+        let endTime = transcript[0].end;
+
+        for (let i = 1; i < transcript.length; i++) {
+          const wordInfo = transcript[i];
+          if (wordInfo.speaker === currentSpeaker) {
+            currentWords.push(wordInfo.word);
+            endTime = wordInfo.end;
+          } else {
+            grouped.push({
+              speaker: currentSpeaker,
+              sentence: currentWords.join(" "),
+              start: startTime,
+              end: endTime
+            });
+            currentSpeaker = wordInfo.speaker;
+            currentWords = [wordInfo.word];
+            startTime = wordInfo.start;
+            endTime = wordInfo.end;
+          }
+        }
+
+        // Push final group
+        grouped.push({
+          speaker: currentSpeaker,
+          sentence: currentWords.join(" "),
+          start: startTime,
+          end: endTime
+        });
+
+        // Display the transcript
+        grouped.forEach(group => {
+          const block = document.createElement("div");
+          block.className = "speaker-block";
+          const duration = (group.end - group.start).toFixed(2);
+
+          block.innerHTML = `
+            <div class="speaker-label">${group.speaker} <span class="timestamp">(${duration}s)</span></div>
+            <div class="sentence">${group.sentence}</div>
+          `;
+          transcriptDiv.appendChild(block);
+        });
+
+        // Auto-scroll to bottom
+        transcriptDiv.scrollTop = transcriptDiv.scrollHeight;
+      }
+    } catch (e) {
+      console.error("Error parsing message:", e);
+    }
+  };
             socket_trans.onclose = () => {
               statusDiv.innerHTML = "❌ WebSocket Connection Closed.";
             };

@@ -41,7 +41,6 @@ accumulated_duration = 0.0
 
 
 def whisper_transcribe(waveform, sample_rate):
-    # Convert stereo to mono if needed
     if waveform.shape[0] > 1:
         waveform = waveform.mean(dim=0, keepdim=True)
 
@@ -50,9 +49,10 @@ def whisper_transcribe(waveform, sample_rate):
 
     result = model.transcribe(audio, word_timestamps=True)
 
-    logger1.info(f"Transcription result with speaker tags:")
+    logger1.info("Transcription result with speaker tags:")
+    
+    full_transcript = []
 
-    # Loop through each segment in the transcription
     for segment in result['segments']:
         for word_info in segment['words']:
             word_start = float(word_info["start"])
@@ -60,26 +60,27 @@ def whisper_transcribe(waveform, sample_rate):
             word = word_info["word"]
             probability = float(word_info["probability"])
 
-            # Default speaker if none is matched
             speaker = "unknown"
-
-            # Match with diarization data
             for entry in diarization_data:
                 diar_start = entry["start_time"]
                 diar_end = diar_start + entry["duration"]
-
-                # If the word falls within this diarization segment
                 if diar_start <= word_start <= diar_end:
                     speaker = entry["speaker_label"]
                     break
 
-            logger1.info(json.dumps({
+            word_data = {
                 "word": word,
                 "start": word_start,
                 "end": word_end,
                 "probability": probability,
                 "speaker": speaker
-            }))
+            }
+
+            logger1.info(json.dumps(word_data))
+            full_transcript.append(word_data)
+
+    return full_transcript
+
 
 
 
@@ -96,26 +97,25 @@ def decode_audio(data: str) -> np.ndarray:
 
 # Function to save audio when buffer hits 5 seconds
 def save_audio_from_buffer(audio_buffer: io.BytesIO, start_time: float, end_time: float):
-    audio_buffer.seek(0)  # Go back to the beginning of the buffer
+    audio_buffer.seek(0)
     try:
-        # Convert the in-memory audio data to WAV format
         audio = AudioSegment.from_raw(
-                audio_buffer, 
-                sample_width=2,  # 16-bit PCM
-                frame_rate=44100,
-                channels=1
-            )
-        # Export to the in-memory buffer in WAV format
+            audio_buffer, 
+            sample_width=2,
+            frame_rate=44100,
+            channels=1
+        )
         wav_buffer = io.BytesIO()
         audio.export(wav_buffer, format="wav")
-        wav_buffer.seek(0)  # Go back to the beginning of the buffer
+        wav_buffer.seek(0)
 
-        # Load audio directly from the WAV in-memory buffer using torchaudio
         waveform, sample_rate = torchaudio.load(wav_buffer)
-        whisper_transcribe(waveform, sample_rate)
+        return whisper_transcribe(waveform, sample_rate)
 
     except Exception as e:
         logger1.error(f"Error during conversion: {e}")
+        return []
+
 
 # WebSocket endpoint
 @app.websocket("/ws")
@@ -146,7 +146,11 @@ async def websocket_endpoint(websocket: WebSocket):
                     if buffer_duration >= DURATION:
                         logger1.info(f"{DURATION} seconds reached. Saving audio...")
                         end_time = start_time + DURATION
-                        save_audio_from_buffer(audio_buffer, start_time, end_time)
+                        transcript = save_audio_from_buffer(audio_buffer, start_time, end_time)
+                        
+                        # Send the transcript to the frontend
+                        await websocket.send_text(json.dumps({"transcript": transcript}))
+
                         audio_buffer.seek(0)  # Reset the buffer
                         audio_buffer.truncate(0)  # Clear the buffer
                         start_time = end_time  # Reset the start time
