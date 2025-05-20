@@ -24,8 +24,6 @@ This guide explains how to set up and run the server using `server.py` and `diar
 Make sure you have the following installed:
 
 * Python 3.8 or higher
-* [diart](https://github.com/descriptinc/diart) package (install via pip)
-* Any additional dependencies from `server.py` (see below for installation)
 
 ## 🛠️ Installation
 
