@@ -76,6 +76,7 @@ pip install "numpy<2.0"
 
 try this in whisper-diarization repo
 python diarize.py -a audio.wav
+python diarize.py -a received_audio.wav
 
 whisper audio.wav --model tiny
 

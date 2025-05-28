@@ -9,3 +9,8 @@ ui2/diarization_log.txt
 .gitignore
 ui2/transcription_log.txt
 ui2/received_audio.wav
+whisper-diarization/nemo_msdd_configs/diar_infer_telephonic.yaml
+whisper-diarization/received_audio.txt
+.gitignore
+whisper-diarization/received_audio.srt
+whisper-diarization/received_audio.wav
