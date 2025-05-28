@@ -14,3 +14,11 @@ whisper-diarization/received_audio.txt
 .gitignore
 whisper-diarization/received_audio.srt
 whisper-diarization/received_audio.wav
+ui3/diarization_log.txt
+ui3/received_audio.srt
+ui3/received_audio.txt
+.gitignore
+.gitignore
+ui3/transcription_log.txt
+ui3/received_audio.wav
+ui3/nemo_msdd_configs/diar_infer_telephonic.yaml

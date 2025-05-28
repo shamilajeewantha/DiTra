@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microphone Stream to WebSocket</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f9fafb;
+        padding: 20px;
+      }
+      canvas {
+        width: 100%;
+        height: 100px;
+        background: #111;
+        border-radius: 8px;
+      }
+
+    #transcript {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      max-height: 80vh;
+    }
+    .speaker-block {
+      margin-bottom: 20px;
+    }
+    .speaker-label {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .timestamp {
+      color: #888;
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    .sentence {
+      margin-top: 5px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="max-w-xl mx-auto p-4 rounded-lg shadow-lg bg-white">
+      <h1 class="text-2xl font-semibold mb-4 text-gray-700">
+        Microphone Stream to WebSocket
+      </h1>
+
+      <button
+        id="startButton"
+        class="bg-green-500 text-white px-4 py-2 rounded-lg mr-2 disabled:opacity-50"
+      >
+        Start Stream
+      </button>
+      <button
+        id="stopButton"
+        class="bg-red-500 text-white px-4 py-2 rounded-lg disabled:opacity-50"
+        disabled
+      >
+        Stop Stream
+      </button>
+
+      <canvas id="visualizer" class="w-full mt-4"></canvas>
+
+      <div id="status" class="mt-4 text-gray-600"></div>
+      <div id="status_diar" class="mt-4 text-gray-600"></div>
+      <div id="transcript">Waiting for transcription...</div>
+    </div>
+
+    <script>
+      const startButton = document.getElementById("startButton");
+      const stopButton = document.getElementById("stopButton");
+      const statusDiv = document.getElementById("status");
+      const status_diarDiv = document.getElementById("status_diar");
+      const canvas = document.getElementById("visualizer");
+      const canvasCtx = canvas.getContext("2d");
+      const transcriptDiv = document.getElementById("transcript");
+
+      let audioContext,
+        mediaStream,
+        processor,
+        socket_trans,
+        analyser,
+        dataArray,
+        socket_diar;
+
+      // WebSocket Server URL
+      const SOCKET_trans_URL = "ws://localhost:8000/ws";
+      const SOCKET_diar_URL = "ws://127.0.0.1:7007";
+      const SOCKET_diartext_URL = "ws://localhost:8000/ws_diar";
+
+      function base64EncodeAudio(audioBuffer) {
+        return btoa(
+          String.fromCharCode.apply(null, new Uint8Array(audioBuffer))
+        );
+      }
+
+      function sendAudioToWebSocket(audioData) {
+        if (socket_trans && socket_trans.readyState === WebSocket.OPEN) {
+          socket_trans.send(base64EncodeAudio(audioData));
+        }
+        if (socket_diar && socket_diar.readyState === WebSocket.OPEN) {
+          socket_diar.send(base64EncodeAudio(audioData));
+        }
+      }
+
+      function sendTextToWebSocket(textData) {
+  try {
+    if (socket_diartext && socket_diartext.readyState === WebSocket.OPEN) {
+      socket_diartext.send(textData);
+      console.log("send rttm text to server")
+    } else {
+      console.warn("WebSocket is not open or not initialized.");
+    }
+  } catch (error) {
+    console.error("Error sending data through WebSocket:", error);
+  }
+}
+
+
+      function visualize() {
+        if (!analyser) return;
+
+        requestAnimationFrame(visualize);
+
+        analyser.getByteTimeDomainData(dataArray);
+        canvasCtx.fillStyle = "#111";
+        canvasCtx.fillRect(0, 0, canvas.width, canvas.height);
+        canvasCtx.lineWidth = 2;
+        canvasCtx.strokeStyle = "#4F46E5";
+        canvasCtx.beginPath();
+
+        let sliceWidth = canvas.width / dataArray.length;
+        let x = 0;
+
+        for (let i = 0; i < dataArray.length; i++) {
+          let v = dataArray[i] / 128.0;
+          let y = v * (canvas.height / 2);
+
+          if (i === 0) {
+            canvasCtx.moveTo(x, y);
+          } else {
+            canvasCtx.lineTo(x, y);
+          }
+          x += sliceWidth;
+        }
+
+        canvasCtx.lineTo(canvas.width, canvas.height / 2);
+        canvasCtx.stroke();
+      }
+
+      function startStream() {
+        navigator.mediaDevices
+          .getUserMedia({ audio: true })
+          .then((stream) => {
+            audioContext = new (window.AudioContext ||
+              window.webkitAudioContext)();
+            mediaStream = audioContext.createMediaStreamSource(stream);
+
+            analyser = audioContext.createAnalyser();
+            analyser.fftSize = 2048;
+            dataArray = new Uint8Array(analyser.frequencyBinCount);
+
+            processor = audioContext.createScriptProcessor(4096, 1, 1);
+            mediaStream.connect(analyser);
+            analyser.connect(processor);
+            processor.connect(audioContext.destination);
+
+            processor.onaudioprocess = function (event) {
+              const audioBuffer = event.inputBuffer.getChannelData(0);
+              sendAudioToWebSocket(audioBuffer.buffer);
+            };
+
+            socket_trans = new WebSocket(SOCKET_trans_URL);
+            socket_diar = new WebSocket(SOCKET_diar_URL);
+            socket_diartext = new WebSocket(SOCKET_diartext_URL);
+
+            socket_diartext.onopen = () => {
+              status_diarDiv.innerHTML =
+                "✅ Connected to WebSocket for diarization text.";
+            };
+
+            socket_diartext.onerror = (error) => {
+              status_diarDiv.innerHTML = "⚠️ WebSocket Error: " + error.message;
+            };
+
+            socket_diartext.onmessage = (event) =>
+              console.log("Message from diar text server:", event.data);
+
+            socket_diartext.onclose = () => {
+              status_diarDiv.innerHTML = "❌ WebSocket Connection Closed.";
+            };
+
+            socket_diar.onopen = () => {
+              status_diarDiv.innerHTML =
+                "✅ Connected to WebSocket for diarization.";
+            };
+
+            socket_diar.onerror = (error) => {
+              status_diarDiv.innerHTML = "⚠️ WebSocket Error: " + error.message;
+            };
+
+            socket_diar.onmessage = (event) => {
+              console.log("Message from diar server:", event.data);
+              sendTextToWebSocket(event.data);
+            };
+
+            socket_diar.onclose = () => {
+              status_diarDiv.innerHTML = "❌ WebSocket Connection Closed.";
+            };
+
+            socket_trans.onopen = () => {
+              statusDiv.innerHTML = "✅ Connected to WebSocket.";
+            };
+
+            socket_trans.onerror = (error) => {
+              statusDiv.innerHTML = "⚠️ WebSocket Error: " + error.message;
+            };
+
+            socket_trans.onmessage = (event) => {
+    try {
+      const data = JSON.parse(event.data);
+      if (data.transcript && Array.isArray(data.transcript)) {
+        const transcript = data.transcript;
+
+        // Group consecutive words by speaker
+        let grouped = [];
+        let currentSpeaker = transcript[0].speaker;
+        let currentWords = [transcript[0].word];
+        let startTime = transcript[0].start;
+        let endTime = transcript[0].end;
+
+        for (let i = 1; i < transcript.length; i++) {
+          const wordInfo = transcript[i];
+          if (wordInfo.speaker === currentSpeaker) {
+            currentWords.push(wordInfo.word);
+            endTime = wordInfo.end;
+          } else {
+            grouped.push({
+              speaker: currentSpeaker,
+              sentence: currentWords.join(" "),
+              start: startTime,
+              end: endTime
+            });
+            currentSpeaker = wordInfo.speaker;
+            currentWords = [wordInfo.word];
+            startTime = wordInfo.start;
+            endTime = wordInfo.end;
+          }
+        }
+
+        // Push final group
+        grouped.push({
+          speaker: currentSpeaker,
+          sentence: currentWords.join(" "),
+          start: startTime,
+          end: endTime
+        });
+
+        // Display the transcript
+        grouped.forEach(group => {
+          const block = document.createElement("div");
+          block.className = "speaker-block";
+          const duration = (group.end - group.start).toFixed(2);
+
+          block.innerHTML = `
+            <div class="speaker-label">${group.speaker} <span class="timestamp">(${duration}s)</span></div>
+            <div class="sentence">${group.sentence}</div>
+          `;
+          transcriptDiv.appendChild(block);
+        });
+
+        // Auto-scroll to bottom
+        transcriptDiv.scrollTop = transcriptDiv.scrollHeight;
+      }
+    } catch (e) {
+      console.error("Error parsing message:", e);
+    }
+  };
+            socket_trans.onclose = () => {
+              statusDiv.innerHTML = "❌ WebSocket Connection Closed.";
+            };
+
+            startButton.disabled = true;
+            stopButton.disabled = false;
+
+            visualize(); // Start visualization
+          })
+          .catch((error) => {
+            statusDiv.textContent =
+              "Microphone access denied or error: " + error.message;
+          });
+      }
+
+      function stopStream() {
+        if (processor) processor.disconnect();
+        if (mediaStream) mediaStream.disconnect();
+        if (audioContext) audioContext.close();
+        if (socket_trans) socket_trans.close();
+        if (socket_diar) socket_diar.close();
+
+        startButton.disabled = false;
+        stopButton.disabled = true;
+        statusDiv.textContent = "Audio stream stopped.";
+
+        canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+
+      startButton.addEventListener("click", startStream);
+      stopButton.addEventListener("click", stopStream);
+    </script>
+  </body>
+</html>

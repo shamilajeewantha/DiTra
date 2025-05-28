@@ -1,6 +1,6 @@
 import subprocess
 
-def run_diarization(audio_file='received_audio.wav'):
+def run_offline_diarization(audio_file='received_audio.wav'):
     try:
         # Call the diarize.py script with the audio file argument
         result = subprocess.run(
@@ -15,4 +15,4 @@ def run_diarization(audio_file='received_audio.wav'):
         print(e.stderr)
 
 if __name__ == "__main__":
-    run_diarization()
+    run_offline_diarization()
