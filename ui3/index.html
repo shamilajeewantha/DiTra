@@ -71,7 +71,7 @@
       <div id="status" class="mt-4 text-gray-600"></div>
       <div id="status_diar" class="mt-4 text-gray-600"></div>
       <div id="transcript">Waiting for transcription...</div>
-      <div id="offline_transcript">Waiting for offline transcription...</div>
+      <div id="offline_transcript"></div>
 
     </div>
 
@@ -102,7 +102,7 @@
 
       function pollForDiarizationResult(maxAttempts = 10, delay = 3000) {
         let attempts = 0;
-        offlineTranscriptDiv.innerHTML += `<p class="text-gray-500 mt-4">Waiting for offline diarization result...</p>`;
+        offlineTranscriptDiv.innerHTML += `<p class="text-gray-500 mt-4">Waiting for offline transcription result...</p>`;
 
         const tryFetch = () => {
           fetch(OFFLINE_ENDPOINT)
@@ -129,19 +129,35 @@
 
 
       function displayOfflineDiarization(text) {
-        const lines = text.split("\n");
-        lines.forEach((line) => {
-          if (line.trim() === "") return;
+        const lines = text.split("\n").filter(line => line.trim() !== "");
 
-          const p = document.createElement("p");
-          p.textContent = line;
-          p.className = "text-sm text-gray-800 mb-1";
-          offlineTranscriptDiv.appendChild(p);
+        lines.forEach(line => {
+          const match = line.match(/^Speaker (\d+):\s*(.*)$/);
+          if (match) {
+            const speaker = `Speaker ${match[1]}`;
+            const sentence = match[2];
+
+            const block = document.createElement("div");
+            block.className = "speaker-block";
+            block.innerHTML = `
+              <div class="speaker-label">${speaker}</div>
+              <div class="sentence">${sentence}</div>
+            `;
+            offlineTranscriptDiv.appendChild(block);
+          } else {
+            // fallback for unexpected lines
+            const p = document.createElement("p");
+            p.textContent = line;
+            p.className = "text-sm text-gray-800 mb-1";
+            offlineTranscriptDiv.appendChild(p);
+          }
         });
 
         // Auto-scroll to bottom
         offlineTranscriptDiv.scrollTop = offlineTranscriptDiv.scrollHeight;
       }
+
+
 
 
 
