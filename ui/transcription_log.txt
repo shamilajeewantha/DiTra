@@ -1,0 +1,675 @@
+2025-05-28 10:35:50,377 - INFO - Client connected
+2025-05-28 10:36:17,910 - INFO - 30 seconds reached. Saving audio...
+2025-05-28 10:36:25,325 - INFO - Transcription result with speaker tags:
+2025-05-28 10:36:25,325 - INFO - {"word": " Ayo,", "start": 0.0, "end": 0.02, "probability": 0.009082921780645847, "speaker": "speaker0"}
+2025-05-28 10:36:25,325 - INFO - {"word": " y", "start": 0.02, "end": 0.02, "probability": 0.022578096017241478, "speaker": "speaker0"}
+2025-05-28 10:36:25,325 - INFO - {"word": "'know,", "start": 0.02, "end": 0.02, "probability": 0.2999601121991873, "speaker": "speaker0"}
+2025-05-28 10:36:25,325 - INFO - {"word": " y", "start": 0.02, "end": 0.02, "probability": 0.1444064825773239, "speaker": "speaker0"}
+2025-05-28 10:36:25,325 - INFO - {"word": "'know,", "start": 0.02, "end": 0.02, "probability": 0.9472545087337494, "speaker": "speaker0"}
+2025-05-28 10:36:25,325 - INFO - {"word": " y", "start": 0.02, "end": 0.02, "probability": 0.888955295085907, "speaker": "speaker0"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 0.02, "end": 0.02, "probability": 0.9465343058109283, "speaker": "speaker0"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 0.02, "end": 4.58, "probability": 0.9462994933128357, "speaker": "speaker0"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 4.58, "end": 4.74, "probability": 0.9527868926525116, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 4.74, "end": 9.4, "probability": 0.9680987000465393, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 9.4, "end": 9.4, "probability": 0.9550533890724182, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 9.4, "end": 9.4, "probability": 0.9764671921730042, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 9.4, "end": 9.4, "probability": 0.9600023627281189, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 9.4, "end": 12.26, "probability": 0.9809994697570801, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9641616642475128, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 12.26, "end": 12.26, "probability": 0.9838968515396118, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9672484695911407, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 12.26, "end": 12.26, "probability": 0.9856869578361511, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9696886837482452, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 12.26, "end": 12.26, "probability": 0.9868357181549072, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9707357585430145, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 12.26, "end": 12.26, "probability": 0.9877889752388, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9704574644565582, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 12.26, "end": 12.26, "probability": 0.9880517721176147, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9718779027462006, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": " y", "start": 12.26, "end": 12.26, "probability": 0.988288402557373, "speaker": "unknown"}
+2025-05-28 10:36:25,326 - INFO - {"word": "'know,", "start": 12.26, "end": 12.26, "probability": 0.9723955392837524, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 12.26, "end": 12.52, "probability": 0.9884713888168335, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 12.52, "end": 12.52, "probability": 0.9724563956260681, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 12.52, "end": 12.52, "probability": 0.9888141751289368, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 12.52, "end": 12.52, "probability": 0.972798764705658, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 12.52, "end": 12.52, "probability": 0.9886560440063477, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 12.52, "end": 12.52, "probability": 0.9749522805213928, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 12.52, "end": 12.52, "probability": 0.9885567426681519, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 12.52, "end": 12.52, "probability": 0.971527487039566, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 12.52, "end": 12.52, "probability": 0.9882900714874268, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 12.52, "end": 12.52, "probability": 0.9716964364051819, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 12.94, "end": 12.96, "probability": 0.9881568551063538, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 12.96, "end": 13.1, "probability": 0.971905380487442, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 13.42, "end": 13.62, "probability": 0.9886642098426819, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 13.62, "end": 14.1, "probability": 0.9724530279636383, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 14.34, "end": 14.56, "probability": 0.9885318279266357, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 14.56, "end": 14.56, "probability": 0.9715279936790466, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 14.56, "end": 14.56, "probability": 0.9888734817504883, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 14.56, "end": 14.68, "probability": 0.9735902845859528, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 14.7, "end": 14.7, "probability": 0.9884639382362366, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 14.7, "end": 14.7, "probability": 0.972480297088623, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": " y", "start": 14.7, "end": 14.7, "probability": 0.9881470799446106, "speaker": "unknown"}
+2025-05-28 10:36:25,327 - INFO - {"word": "'know,", "start": 14.7, "end": 14.7, "probability": 0.9724612534046173, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.9, "end": 14.9, "probability": 0.9882673621177673, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 14.9, "end": 14.9, "probability": 0.9734533429145813, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.9, "end": 14.9, "probability": 0.9884507656097412, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 14.9, "end": 14.9, "probability": 0.9730992019176483, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.9, "end": 14.9, "probability": 0.9882407188415527, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 14.9, "end": 14.9, "probability": 0.9729080200195312, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.9, "end": 14.9, "probability": 0.9882497787475586, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 14.9, "end": 14.9, "probability": 0.9741102755069733, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.9, "end": 14.9, "probability": 0.9881681799888611, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 14.9, "end": 14.9, "probability": 0.9723919332027435, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.9, "end": 14.9, "probability": 0.9879542589187622, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 14.9, "end": 14.9, "probability": 0.9745191633701324, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 14.92, "end": 15.04, "probability": 0.9876816272735596, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 15.04, "end": 15.12, "probability": 0.97294020652771, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9884655475616455, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.973002701997757, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9882296323776245, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.9730244576931, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9884546995162964, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.9728705883026123, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9889995455741882, "speaker": "unknown"}
+2025-05-28 10:36:25,328 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.9729796946048737, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9888830780982971, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.9720355272293091, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9887009859085083, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.972236841917038, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 15.26, "end": 15.26, "probability": 0.9888311624526978, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 15.26, "end": 15.26, "probability": 0.9730125963687897, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 15.32, "end": 15.32, "probability": 0.9886547327041626, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 15.32, "end": 15.48, "probability": 0.971489280462265, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 15.52, "end": 16.36, "probability": 0.9887187480926514, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 16.36, "end": 16.54, "probability": 0.9734486639499664, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 16.54, "end": 16.56, "probability": 0.9890425801277161, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 16.56, "end": 16.56, "probability": 0.9721229374408722, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 16.56, "end": 16.66, "probability": 0.9896165132522583, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 16.66, "end": 16.66, "probability": 0.9721296727657318, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 16.66, "end": 16.66, "probability": 0.9885618686676025, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 16.66, "end": 16.66, "probability": 0.9694313406944275, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 16.66, "end": 16.68, "probability": 0.9883450269699097, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 16.68, "end": 16.88, "probability": 0.9672305285930634, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 17.02, "end": 17.02, "probability": 0.9882466197013855, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 17.02, "end": 17.02, "probability": 0.968213677406311, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 17.02, "end": 17.02, "probability": 0.9888538122177124, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": "'know,", "start": 17.02, "end": 17.02, "probability": 0.9699445068836212, "speaker": "unknown"}
+2025-05-28 10:36:25,329 - INFO - {"word": " y", "start": 17.02, "end": 17.02, "probability": 0.9886887669563293, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 17.02, "end": 17.02, "probability": 0.9729775190353394, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 17.02, "end": 17.02, "probability": 0.9881373047828674, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 17.02, "end": 17.02, "probability": 0.9724948406219482, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 17.02, "end": 17.02, "probability": 0.98701012134552, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 17.02, "end": 17.02, "probability": 0.972960501909256, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 17.02, "end": 17.02, "probability": 0.9866443276405334, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 17.02, "end": 17.02, "probability": 0.9666691422462463, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 17.02, "end": 17.3, "probability": 0.9859372973442078, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 17.3, "end": 17.3, "probability": 0.9652536809444427, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 17.3, "end": 17.3, "probability": 0.9846770763397217, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 17.3, "end": 17.3, "probability": 0.9620330631732941, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 17.3, "end": 19.82, "probability": 0.9845368266105652, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 19.82, "end": 19.82, "probability": 0.9589425325393677, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 19.82, "end": 21.34, "probability": 0.9833775758743286, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 21.34, "end": 21.66, "probability": 0.9526247978210449, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 21.66, "end": 24.08, "probability": 0.9872924089431763, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 24.08, "end": 29.8, "probability": 0.9585264325141907, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 29.8, "end": 29.8, "probability": 0.0002293478901265189, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 29.8, "end": 29.98, "probability": 0.3680499419569969, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.07432331144809723, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9173586368560791, "speaker": "unknown"}
+2025-05-28 10:36:25,330 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9477896094322205, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9547381699085236, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9693529605865479, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9634052813053131, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9775887727737427, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9652116000652313, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.980361819267273, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9678562879562378, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.982925295829773, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9685635566711426, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9840070605278015, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9703287184238434, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.985639214515686, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9723072350025177, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9862121343612671, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9714917242527008, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.986752986907959, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9723193645477295, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9870445132255554, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9711339175701141, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9872950911521912, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9719954133033752, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9874312877655029, "speaker": "unknown"}
+2025-05-28 10:36:25,331 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9723345637321472, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9883514046669006, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9738566279411316, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9883484244346619, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9722634255886078, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9882332682609558, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9719982445240021, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9883102178573608, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9713353514671326, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9882169365882874, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9719125628471375, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9875594973564148, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9711860716342926, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9880635142326355, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9739872813224792, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9884548187255859, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9724808037281036, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9886831641197205, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9729991555213928, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9883427023887634, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9723967015743256, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9884519577026367, "speaker": "unknown"}
+2025-05-28 10:36:25,332 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9734542369842529, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9880872964859009, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.97260382771492, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9881473183631897, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9736083149909973, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9878764152526855, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9731310606002808, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9880405068397522, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9733723700046539, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9880898594856262, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9715980589389801, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.987366795539856, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9734106659889221, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9875549674034119, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9722959399223328, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9876049757003784, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9732967019081116, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9880973696708679, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9731036722660065, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9884240031242371, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9720371067523956, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9886994957923889, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9727049171924591, "speaker": "unknown"}
+2025-05-28 10:36:25,333 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9886916875839233, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9726231098175049, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9892433881759644, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.971738338470459, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9891887903213501, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9706909954547882, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9894089698791504, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.971079021692276, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9897356033325195, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9722276926040649, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9900541305541992, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9715729355812073, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9898836016654968, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9717265069484711, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.989870011806488, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9722846150398254, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.990467369556427, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9716028571128845, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9904594421386719, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9712776839733124, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9911254048347473, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9715197086334229, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9903744459152222, "speaker": "unknown"}
+2025-05-28 10:36:25,334 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9712275862693787, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.990186333656311, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9703893959522247, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9895467162132263, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.972565233707428, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9899006485939026, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9700219631195068, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9892154335975647, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9709248840808868, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9891343712806702, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9681166708469391, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9888235926628113, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9658202528953552, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9875397682189941, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.98, "end": 29.98, "probability": 0.9614115953445435, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.98, "end": 29.98, "probability": 0.9897043108940125, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.00051190669182688, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.3829609043896198, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.08127273619174957, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9305390119552612, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9467769861221313, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.958066314458847, "speaker": "unknown"}
+2025-05-28 10:36:25,335 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9706323742866516, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9634166061878204, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9786776304244995, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9645556807518005, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9818317890167236, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9663369059562683, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9841734170913696, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9678775668144226, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9853866100311279, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9698670506477356, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9869067668914795, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9719506204128265, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9875118732452393, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.971119612455368, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9880934357643127, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9721314609050751, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9882903099060059, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9712394773960114, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9884414672851562, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9723696410655975, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9883974194526672, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9731097519397736, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.989349365234375, "speaker": "unknown"}
+2025-05-28 10:36:25,336 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9746264517307281, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9895285964012146, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9732684195041656, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9893033504486084, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9730202555656433, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9893063902854919, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9723812937736511, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9890565276145935, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9730039834976196, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9886000752449036, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9723170399665833, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9890421032905579, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9749670028686523, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9893631339073181, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9738218784332275, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9896572232246399, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9743361175060272, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9892885684967041, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.974217027425766, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.989200234413147, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9752235114574432, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9889430999755859, "speaker": "unknown"}
+2025-05-28 10:36:25,337 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9744834899902344, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9891530275344849, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9750773012638092, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9888975024223328, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9749021530151367, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9890534281730652, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9751959145069122, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9890084862709045, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9733445346355438, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9882728457450867, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9754790365695953, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.988579511642456, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9742790162563324, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9883038997650146, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9753872156143188, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9889735579490662, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9753978252410889, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9890792965888977, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9745509028434753, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9893736243247986, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9752714931964874, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9895212650299072, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9751657247543335, "speaker": "unknown"}
+2025-05-28 10:36:25,338 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.989944338798523, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9738731384277344, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9896711707115173, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9733037948608398, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9899762272834778, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9735615253448486, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9904409646987915, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9748059213161469, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9905523061752319, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9736163020133972, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.990378737449646, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9739882349967957, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9904576539993286, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.974702924489975, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9909517765045166, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9740010499954224, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9910535216331482, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9736604392528534, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9916412830352783, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.973505049943924, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.99092698097229, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9734333753585815, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9907569289207458, "speaker": "unknown"}
+2025-05-28 10:36:25,339 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.972861111164093, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9901869297027588, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9746392369270325, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9903160929679871, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.972280889749527, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9898550510406494, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9732513129711151, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9896488189697266, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9703682661056519, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9893139004707336, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9680585861206055, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.96, "probability": 0.9880951642990112, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": "'know,", "start": 29.96, "end": 29.96, "probability": 0.9636262953281403, "speaker": "unknown"}
+2025-05-28 10:36:25,340 - INFO - {"word": " y", "start": 29.96, "end": 29.98, "probability": 0.9900179505348206, "speaker": "unknown"}
+2025-05-28 10:36:55,607 - INFO - 30 seconds reached. Saving audio...
+2025-05-28 10:36:58,004 - INFO - Transcription result with speaker tags:
+2025-05-28 10:36:58,004 - INFO - {"word": " The", "start": 0.0, "end": 0.0, "probability": 0.005258425138890743, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 0.0, "end": 0.0, "probability": 0.019092509523034096, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 0.0, "end": 0.0, "probability": 0.10134681314229965, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 0.0, "end": 0.24, "probability": 0.2095094621181488, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 0.24, "end": 0.24, "probability": 0.042347270995378494, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 0.24, "end": 0.24, "probability": 0.45991578698158264, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 0.24, "end": 0.54, "probability": 0.673012912273407, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 0.54, "end": 0.54, "probability": 0.4169476330280304, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 0.54, "end": 0.54, "probability": 0.7586499452590942, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 1.56, "end": 5.32, "probability": 0.8085678815841675, "speaker": "speaker0"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 5.32, "end": 5.32, "probability": 0.8563168048858643, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 5.32, "end": 5.32, "probability": 0.8609046339988708, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 8.18, "end": 9.64, "probability": 0.8585800528526306, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 9.64, "end": 9.64, "probability": 0.926200270652771, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 9.64, "end": 9.64, "probability": 0.8895944356918335, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 14.04, "end": 14.14, "probability": 0.8785926699638367, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 14.14, "end": 14.14, "probability": 0.9420347213745117, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 14.14, "end": 14.14, "probability": 0.8920446038246155, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 19.3, "end": 19.46, "probability": 0.8912624716758728, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 19.46, "end": 19.46, "probability": 0.943218469619751, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 19.46, "end": 19.8, "probability": 0.883902907371521, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 21.16, "end": 21.16, "probability": 0.8987575173377991, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 21.16, "end": 22.42, "probability": 0.9424806833267212, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 22.42, "end": 25.12, "probability": 0.8771061301231384, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 25.92, "end": 25.92, "probability": 0.9103770852088928, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " next", "start": 25.92, "end": 25.92, "probability": 0.94118732213974, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " day,", "start": 25.92, "end": 25.92, "probability": 0.871340274810791, "speaker": "unknown"}
+2025-05-28 10:36:58,004 - INFO - {"word": " the", "start": 26.5, "end": 26.5, "probability": 0.9182096123695374, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 26.5, "end": 26.5, "probability": 0.9394941329956055, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 26.5, "end": 26.5, "probability": 0.8699787855148315, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 26.98, "end": 26.98, "probability": 0.9235360026359558, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 26.98, "end": 26.98, "probability": 0.9360572099685669, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 26.98, "end": 26.98, "probability": 0.8681285381317139, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 26.98, "end": 26.98, "probability": 0.92447829246521, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 26.98, "end": 26.98, "probability": 0.9319642186164856, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 26.98, "end": 26.98, "probability": 0.8554967641830444, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.54, "end": 27.54, "probability": 0.925199568271637, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.54, "end": 27.54, "probability": 0.9254430532455444, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.54, "end": 27.54, "probability": 0.8560652136802673, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.56, "end": 27.56, "probability": 0.9242464900016785, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.56, "end": 27.56, "probability": 0.9217602014541626, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.56, "end": 27.56, "probability": 0.8522346019744873, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.56, "end": 27.56, "probability": 0.9285853505134583, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.56, "end": 27.56, "probability": 0.9203435778617859, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.56, "end": 27.56, "probability": 0.8580812811851501, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.56, "end": 27.56, "probability": 0.9310537576675415, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.56, "end": 27.56, "probability": 0.9191864728927612, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.56, "end": 27.56, "probability": 0.8616777658462524, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.56, "end": 27.56, "probability": 0.9338589906692505, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.56, "end": 27.56, "probability": 0.9146847128868103, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.56, "end": 27.56, "probability": 0.8678240776062012, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.56, "end": 27.56, "probability": 0.9337010979652405, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.56, "end": 27.56, "probability": 0.9149399995803833, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.56, "end": 27.56, "probability": 0.8614087700843811, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.56, "end": 27.56, "probability": 0.9331175088882446, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.56, "end": 27.66, "probability": 0.9141517281532288, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.66, "end": 27.66, "probability": 0.8645124435424805, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.66, "end": 27.66, "probability": 0.9301095604896545, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " next", "start": 27.66, "end": 27.66, "probability": 0.9171686768531799, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " day,", "start": 27.66, "end": 27.66, "probability": 0.8607021570205688, "speaker": "unknown"}
+2025-05-28 10:36:58,005 - INFO - {"word": " the", "start": 27.66, "end": 27.66, "probability": 0.9303086400032043, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.66, "end": 27.66, "probability": 0.9168741106987, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.66, "end": 27.66, "probability": 0.859538197517395, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.66, "end": 27.66, "probability": 0.9338813424110413, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.66, "end": 27.66, "probability": 0.9191647171974182, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.66, "end": 27.66, "probability": 0.8643739819526672, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.66, "end": 27.66, "probability": 0.938310444355011, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.66, "end": 27.66, "probability": 0.921413242816925, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.66, "end": 27.66, "probability": 0.8714298605918884, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.66, "end": 27.66, "probability": 0.9363495111465454, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.66, "end": 27.66, "probability": 0.922461748123169, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.66, "end": 27.66, "probability": 0.8756422400474548, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.66, "end": 27.66, "probability": 0.9415332078933716, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.66, "end": 27.84, "probability": 0.9348134398460388, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.84, "end": 27.84, "probability": 0.8753454685211182, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.84, "end": 27.84, "probability": 0.9414116740226746, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.84, "end": 27.84, "probability": 0.9408550262451172, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.84, "end": 27.84, "probability": 0.8811572194099426, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.84, "end": 27.84, "probability": 0.9436759352684021, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.84, "end": 27.84, "probability": 0.9439026117324829, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.84, "end": 27.84, "probability": 0.8836773037910461, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.84, "end": 27.84, "probability": 0.9455410838127136, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.84, "end": 27.84, "probability": 0.9461857080459595, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.84, "end": 27.84, "probability": 0.88080894947052, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.84, "end": 27.84, "probability": 0.9480108022689819, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.84, "end": 27.84, "probability": 0.9501819014549255, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.84, "end": 27.84, "probability": 0.8844339847564697, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.84, "end": 27.84, "probability": 0.95084148645401, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.84, "end": 27.84, "probability": 0.9525612592697144, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 27.84, "end": 27.84, "probability": 0.8886497020721436, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 27.84, "end": 27.84, "probability": 0.9518428444862366, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " next", "start": 27.84, "end": 28.3, "probability": 0.9575489163398743, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " day,", "start": 28.3, "end": 28.3, "probability": 0.8909264802932739, "speaker": "unknown"}
+2025-05-28 10:36:58,006 - INFO - {"word": " the", "start": 28.3, "end": 28.3, "probability": 0.9525054693222046, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.3, "end": 28.5, "probability": 0.9609785079956055, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 28.5, "end": 28.5, "probability": 0.8836569786071777, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 28.5, "end": 28.5, "probability": 0.9531627297401428, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.5, "end": 28.5, "probability": 0.9647507667541504, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 28.5, "end": 28.5, "probability": 0.8910027146339417, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 28.5, "end": 28.5, "probability": 0.9543637037277222, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.5, "end": 28.5, "probability": 0.9659669995307922, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 28.5, "end": 28.5, "probability": 0.888770341873169, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 28.5, "end": 28.5, "probability": 0.9562855958938599, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.5, "end": 28.5, "probability": 0.9677788019180298, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 28.5, "end": 28.5, "probability": 0.8937063813209534, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 28.5, "end": 28.5, "probability": 0.9587839841842651, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.5, "end": 28.5, "probability": 0.9701261520385742, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 28.5, "end": 28.5, "probability": 0.8998275399208069, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 28.5, "end": 28.5, "probability": 0.9601171612739563, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.5, "end": 28.5, "probability": 0.9720032811164856, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 28.5, "end": 28.5, "probability": 0.8987193703651428, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 28.5, "end": 28.5, "probability": 0.9620296359062195, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 28.5, "end": 29.6, "probability": 0.9740183353424072, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9044474363327026, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9624899625778198, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9758051037788391, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9019680023193359, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9641508460044861, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9765848517417908, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.8999947309494019, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9645065665245056, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9776935577392578, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9001482129096985, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.965377688407898, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9793724417686462, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9052015542984009, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9653990268707275, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9797056317329407, "speaker": "unknown"}
+2025-05-28 10:36:58,007 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.8987100124359131, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9667105078697205, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9808357954025269, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.904289960861206, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9679511189460754, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9811457991600037, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.8989956974983215, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.968636155128479, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.981711745262146, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9059632420539856, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9689725041389465, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9817564487457275, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.90207839012146, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9692632555961609, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9828063249588013, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9100437760353088, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9696623086929321, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9828366637229919, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9113258719444275, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9710663557052612, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9829186201095581, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.911122739315033, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9708235859870911, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9822068214416504, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9053227305412292, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9717374444007874, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9841287136077881, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9043604731559753, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9717658162117004, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9844772815704346, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9056587219238281, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.972968339920044, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9852810502052307, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9017400145530701, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9741882085800171, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " next", "start": 29.6, "end": 29.6, "probability": 0.9869352579116821, "speaker": "unknown"}
+2025-05-28 10:36:58,008 - INFO - {"word": " day,", "start": 29.6, "end": 29.6, "probability": 0.9039753079414368, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.6, "end": 29.6, "probability": 0.9743631482124329, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.6, "end": 29.98, "probability": 0.9896023869514465, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day", "start": 29.98, "end": 29.98, "probability": 0.9123830795288086, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.00024675147142261267, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.03290038928389549, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.1210593581199646, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.10978288948535919, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.17659257352352142, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.7648305296897888, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.7193084955215454, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.7048524618148804, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8809776902198792, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.8491033911705017, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9105757474899292, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9069814682006836, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.889229416847229, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9410327672958374, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9091799855232239, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9094769358634949, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9495623111724854, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9044408798217773, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9205685257911682, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9508026838302612, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.89501953125, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9304353594779968, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9521781802177429, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8889476656913757, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9394561648368835, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9529683589935303, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8797715902328491, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9458155035972595, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9521264433860779, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8763176202774048, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9492878317832947, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9505618810653687, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8715095520019531, "speaker": "unknown"}
+2025-05-28 10:36:58,009 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9512200355529785, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9483599662780762, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8615313768386841, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9514180421829224, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9437933564186096, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8640462756156921, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9512647986412048, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.940809965133667, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8584006428718567, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9537004232406616, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9371165037155151, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8610513210296631, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.955161452293396, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9348162412643433, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8601738214492798, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9554281830787659, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9278690218925476, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8703600168228149, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9542492032051086, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9237083196640015, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8598113059997559, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9535233974456787, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9186015725135803, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.860205352306366, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9509791731834412, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9166390895843506, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8501449227333069, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9485834240913391, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9151153564453125, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8529501557350159, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9491893649101257, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.915147066116333, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8547091484069824, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9501407146453857, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9123391509056091, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8614856600761414, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9485910534858704, "speaker": "unknown"}
+2025-05-28 10:36:58,010 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9070454239845276, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8591884970664978, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9501886963844299, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9150936603546143, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8618581295013428, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.948930561542511, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9196058511734009, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8666425943374634, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9489285349845886, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9241101741790771, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8724339008331299, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9488349556922913, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9242241978645325, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8655830025672913, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9495043754577637, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9282347559928894, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8708491921424866, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9517574906349182, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9286107420921326, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8715259432792664, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9517881870269775, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9363663196563721, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8781355619430542, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9516355991363525, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.941628634929657, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8679580688476562, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.952187716960907, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9452128410339355, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8789011836051941, "speaker": "unknown"}
+2025-05-28 10:36:58,011 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9534916877746582, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9484516382217407, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8751412630081177, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9543410539627075, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9514786601066589, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8824344277381897, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9578774571418762, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9558548331260681, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8904747366905212, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9588730931282043, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9578908085823059, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8876095414161682, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9605010747909546, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9624930024147034, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8944966793060303, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9607646465301514, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9650574922561646, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8944323062896729, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9628680944442749, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9669010043144226, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8927419781684875, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.963741660118103, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9688930511474609, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8950507640838623, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9654081463813782, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9705653786659241, "speaker": "unknown"}
+2025-05-28 10:36:58,012 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8997438549995422, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9646430015563965, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9715883135795593, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8933143615722656, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.966543436050415, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9731268882751465, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8998394012451172, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9683133363723755, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9743155241012573, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.8998162150382996, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9704973101615906, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9759722948074341, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9046565890312195, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9702821373939514, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9763936400413513, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9032348990440369, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9709614515304565, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9786787629127502, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9088999032974243, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.971668004989624, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9789639711380005, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9110886454582214, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9739565849304199, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9799304008483887, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9120657444000244, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9738335609436035, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9791069030761719, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9078668355941772, "speaker": "unknown"}
+2025-05-28 10:36:58,013 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9750418663024902, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9812461733818054, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9103728532791138, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9751586318016052, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9824541211128235, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9134392738342285, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9770053625106812, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.983653724193573, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9120253920555115, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " the", "start": 29.96, "end": 29.96, "probability": 0.9778472185134888, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " next", "start": 29.96, "end": 29.96, "probability": 0.9858988523483276, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " day,", "start": 29.96, "end": 29.96, "probability": 0.9094585180282593, "speaker": "unknown"}
+2025-05-28 10:36:58,014 - INFO - {"word": " the", "start": 29.96, "end": 29.98, "probability": 0.9778457283973694, "speaker": "unknown"}
+2025-05-28 10:37:01,334 - ERROR - Error receiving audio: (1012, None)
+2025-05-28 10:37:01,334 - INFO - Connection closed. Saving remaining audio...
+2025-05-28 10:37:01,498 - INFO - Transcription result with speaker tags:

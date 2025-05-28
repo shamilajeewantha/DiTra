@@ -1,0 +1,6 @@
+2025-05-28 10:35:50,453 - INFO - Diarization Client connected
+2025-05-28 10:35:59,014 - INFO - Start time: 979.508
+2025-05-28 10:36:04,826 - INFO - Processed diarization data: Start time: 0.0, Duration : 3.4, Speaker: speaker0
+2025-05-28 10:36:12,852 - INFO - Processed diarization data: Start time: 17.5, Duration : 1.0, Speaker: speaker1
+2025-05-28 10:37:01,498 - ERROR - Error receiving diarization data: (1012, None)
+2025-05-28 10:37:01,498 - INFO - Diarization Connection closed.

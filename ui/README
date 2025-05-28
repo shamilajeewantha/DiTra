@@ -5,3 +5,26 @@ pip install diart
 
 diart.serve --host 0.0.0.0 --port 7007
 python server.py
+
+
+conda install anaconda::cudnn
+follow along others
+
+
+conda create -n newwhisper python=3.12
+conda install -c nvidia/label/cuda-12.1.1 --override-channels cuda-toolkit=12.1.1
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+
+pip install -U openai-whisper
+
+whisper audio.wav --model tiny
+
+pip install "fastapi[standard]"
+pip install pydub
+conda install -c conda-forge compilers
+
+
+
+pip install cython
+pip install -c constraints.txt -r requirements.txt
+conda install anaconda::cudnn
