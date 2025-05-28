@@ -5,3 +5,7 @@ audio.wav
 simple_webapp/received_audio.wav
 whisper_webapp/transcription_log.txt
 # *txt
+ui2/diarization_log.txt
+.gitignore
+ui2/transcription_log.txt
+ui2/received_audio.wav

@@ -81,4 +81,6 @@ whisper audio.wav --model tiny
 
 in case processes get frozen
 lsof -i :7007
+lsof -i :8000
+
 kill 97563
