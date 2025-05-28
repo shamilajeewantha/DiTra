@@ -12,6 +12,8 @@ import torchaudio
 import whisper
 import json
 import subprocess
+from fastapi.responses import FileResponse
+
 
 DURATION = 30  # Duration in seconds for which audio is saved
 
@@ -273,6 +275,11 @@ async def websocket_endpoint(websocket: WebSocket):
 @app.get("/")
 async def get():
     return HTMLResponse(content=open("index.html", encoding="utf-8").read(), status_code=200)
+
+
+@app.get("/diarization_result")
+def get_diarization_result():
+    return FileResponse("received_audio.txt", media_type="text/plain")
 
 # Run the application with log level set to debug
 if __name__ == "__main__":

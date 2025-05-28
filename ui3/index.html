@@ -71,6 +71,8 @@
       <div id="status" class="mt-4 text-gray-600"></div>
       <div id="status_diar" class="mt-4 text-gray-600"></div>
       <div id="transcript">Waiting for transcription...</div>
+      <div id="offline_transcript">Waiting for offline transcription...</div>
+
     </div>
 
     <script>
@@ -81,6 +83,8 @@
       const canvas = document.getElementById("visualizer");
       const canvasCtx = canvas.getContext("2d");
       const transcriptDiv = document.getElementById("transcript");
+      const offlineTranscriptDiv = document.getElementById("offline_transcript");
+
 
       let audioContext,
         mediaStream,
@@ -94,6 +98,52 @@
       const SOCKET_trans_URL = "ws://localhost:8000/ws";
       const SOCKET_diar_URL = "ws://127.0.0.1:7007";
       const SOCKET_diartext_URL = "ws://localhost:8000/ws_diar";
+      const OFFLINE_ENDPOINT = "http://localhost:8000/diarization_result";
+
+      function pollForDiarizationResult(maxAttempts = 10, delay = 3000) {
+        let attempts = 0;
+        offlineTranscriptDiv.innerHTML += `<p class="text-gray-500 mt-4">Waiting for offline diarization result...</p>`;
+
+        const tryFetch = () => {
+          fetch(OFFLINE_ENDPOINT)
+            .then((response) => {
+              if (!response.ok) throw new Error("File not ready");
+              return response.text();
+            })
+            .then((text) => {
+              offlineTranscriptDiv.innerHTML += `<hr class="my-6"><h2 class="text-xl font-semibold mb-2">Offline Diarization:</h2>`;
+              displayOfflineDiarization(text);
+            })
+            .catch((err) => {
+              attempts++;
+              if (attempts < maxAttempts) {
+                setTimeout(tryFetch, delay);
+              } else {
+                offlineTranscriptDiv.innerHTML += `<p class="text-red-600">❌ Failed to load offline diarization after ${maxAttempts} attempts.</p>`;
+              }
+            });
+        };
+
+        setTimeout(tryFetch, delay); // start after initial delay
+      }
+
+
+      function displayOfflineDiarization(text) {
+        const lines = text.split("\n");
+        lines.forEach((line) => {
+          if (line.trim() === "") return;
+
+          const p = document.createElement("p");
+          p.textContent = line;
+          p.className = "text-sm text-gray-800 mb-1";
+          offlineTranscriptDiv.appendChild(p);
+        });
+
+        // Auto-scroll to bottom
+        offlineTranscriptDiv.scrollTop = offlineTranscriptDiv.scrollHeight;
+      }
+
+
 
       function base64EncodeAudio(audioBuffer) {
         return btoa(
@@ -310,6 +360,8 @@
         statusDiv.textContent = "Audio stream stopped.";
 
         canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+        // Start polling for the offline diarization result
+        pollForDiarizationResult();
       }
 
       startButton.addEventListener("click", startStream);
