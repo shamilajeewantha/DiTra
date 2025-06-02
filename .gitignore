@@ -22,3 +22,5 @@ ui3/received_audio.txt
 ui3/transcription_log.txt
 ui3/received_audio.wav
 ui3/nemo_msdd_configs/diar_infer_telephonic.yaml
+gemini/api_key.txt
+ui4/api_key.txt

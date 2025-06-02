@@ -49,7 +49,7 @@
   <body>
     <div class="max-w-xl mx-auto p-4 rounded-lg shadow-lg bg-white">
       <h1 class="text-2xl font-semibold mb-4 text-gray-700">
-        Microphone Stream to WebSocket
+        DiTra - Diarization and Transcription Pipeline
       </h1>
 
       <button
@@ -99,10 +99,12 @@
       // const SOCKET_diar_URL = "ws://127.0.0.1:7007";
       // const SOCKET_diartext_URL = "ws://localhost:9000/ws_diar";
       // const OFFLINE_ENDPOINT = "http://localhost:9000/diarization_result";
-      const SOCKET_trans_URL = "wss://eada-192-248-14-69.ngrok-free.app/ws";
-      const SOCKET_diar_URL = "wss://855d-192-248-14-69.ngrok-free.app";
-      const SOCKET_diartext_URL = "wss://eada-192-248-14-69.ngrok-free.app/ws_diar";
-      const OFFLINE_ENDPOINT = "https://eada-192-248-14-69.ngrok-free.app/diarization_result";
+
+      const SOCKET_trans_URL = "wss://1847-192-248-14-69.ngrok-free.app/ws";
+      const SOCKET_diar_URL = "wss://8451-192-248-14-69.ngrok-free.app";
+      const SOCKET_diartext_URL = "wss://1847-192-248-14-69.ngrok-free.app/ws_diar";
+      const OFFLINE_ENDPOINT = "https://1847-192-248-14-69.ngrok-free.app/diarization_result";
+
 
 
       function pollForDiarizationResult(maxAttempts = 10, delay = 3000) {

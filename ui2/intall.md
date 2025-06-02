@@ -83,5 +83,12 @@ whisper audio.wav --model tiny
 in case processes get frozen
 lsof -i :7007
 lsof -i :8000
+ps aux | grep 8000
 
 kill 97563
+
+
+mkdir -p ~/ngrok
+tar -xvzf ngrok-v3-stable-linux-amd64.tgz -C ~/ngrok
+export PATH="$HOME/ngrok:$PATH" 
+source ~/.bashrc 
