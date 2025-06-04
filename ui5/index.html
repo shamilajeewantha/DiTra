@@ -305,14 +305,14 @@
         // Group consecutive words by speaker
         let grouped = [];
         let currentSpeaker = transcript[0].speaker;
-        let currentWords = [transcript[0].word];
+        let currentWords = [transcript[0].text];
         let startTime = transcript[0].start;
         let endTime = transcript[0].end;
 
         for (let i = 1; i < transcript.length; i++) {
           const wordInfo = transcript[i];
           if (wordInfo.speaker === currentSpeaker) {
-            currentWords.push(wordInfo.word);
+            currentWords.push(wordInfo.text);
             endTime = wordInfo.end;
           } else {
             grouped.push({
@@ -322,7 +322,7 @@
               end: endTime
             });
             currentSpeaker = wordInfo.speaker;
-            currentWords = [wordInfo.word];
+            currentWords = [wordInfo.text];
             startTime = wordInfo.start;
             endTime = wordInfo.end;
           }
@@ -343,7 +343,7 @@
           const duration = (group.end - group.start).toFixed(2);
 
           block.innerHTML = `
-            <div class="speaker-label">${group.speaker} <span class="timestamp">(${duration}s)</span></div>
+            <div class="speaker-label">${group.speaker}</div>
             <div class="sentence">${group.sentence}</div>
           `;
           transcriptDiv.appendChild(block);

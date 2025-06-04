@@ -18,7 +18,7 @@ from gemini_services import generate
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
-executor = ThreadPoolExecutor(max_workers=4)  # Global thread pool
+executor = ThreadPoolExecutor(max_workers=8)  # Global thread pool
 
 
 
@@ -48,6 +48,38 @@ diarization_start_time = None
 local_start_time = 0
 previous_speaker = None
 accumulated_duration = 0.0
+
+
+def group_transcript_by_speaker(transcript):
+    grouped = []
+    current_speaker = None
+    current_words = []
+
+    for word_info in transcript:
+        speaker = word_info["speaker"]
+        word = word_info["word"].strip()
+
+        # Start a new group if speaker changes
+        if speaker != current_speaker:
+            if current_words:
+                grouped.append({
+                    "speaker": current_speaker,
+                    "text": " ".join(current_words).replace(" .", ".").replace(" ,", ",")
+                })
+            current_speaker = speaker
+            current_words = [word]
+        else:
+            current_words.append(word)
+
+    # Add the last group
+    if current_words:
+        grouped.append({
+            "speaker": current_speaker,
+            "text": " ".join(current_words).replace(" .", ".").replace(" ,", ",")
+        })
+
+    return grouped
+
 
 
 def whisper_transcribe(waveform, sample_rate):
@@ -89,7 +121,18 @@ def whisper_transcribe(waveform, sample_rate):
             logger1.info(json.dumps(word_data))
             full_transcript.append(word_data)
 
-    return full_transcript
+    formatted_transcript = group_transcript_by_speaker(full_transcript)
+    formatted_transcript_str = json.dumps(formatted_transcript, ensure_ascii=False)
+    logger1.info(f"formatted_transcript :\n{formatted_transcript_str}")
+
+
+    # Gemini returns stringified JSON
+    gemini_transcript_str = generate("online", formatted_transcript_str)
+
+    # Convert back to list of dicts
+    gemini_transcript = json.loads(gemini_transcript_str)
+
+    return gemini_transcript
 
 async def run_transcription_async(waveform, sample_rate):
     loop = asyncio.get_running_loop()
