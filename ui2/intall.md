@@ -47,7 +47,7 @@ pip install -U openai-whisper
 
 pip install "fastapi[standard]"
 pip install pydub
-
+pip install google-genai
 
 
 pytorch 2.7 causes error in whisper. downgrade to 2.5:
@@ -99,6 +99,8 @@ whisper audio.wav --model tiny
 in case processes get frozen
 lsof -i :7007
 lsof -i :8000
+lsof -i :9000
+
 ps aux | grep 8000
 
 kill 97563
