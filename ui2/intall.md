@@ -2,7 +2,6 @@
 
 conda create -n ditra python=3.12
 
-
 for whisper-offiline-diarization. Install this way because nemo installation in requirements txt installs pytorch 2.7 with normal command "pip3 install torch torchvision torchaudio
 ". it must be avoided:
 
@@ -64,11 +63,28 @@ wget https://developer.download.nvidia.com/compute/cudnn/redist/cudnn/linux-x86_
 
 tar -xf cudnn-linux-x86_64-9.1.0.70_cuda12-archive.tar.xz
 
+https://docs.nvidia.com/deeplearning/cudnn/archives/cudnn-890/install-guide/index.html
+
+
+
 cp cudnn-*-archive/include/cudnn*.h /home/thulasi/.conda/envs/ctb/include/
 cp -P cudnn-*-archive/lib/libcudnn* /home/thulasi/.conda/envs/ctb/lib/
 chmod a+r /home/thulasi/.conda/envs/ctb/include/cudnn*.h /home/thulasi/.conda/envs/ctb/lib/libcudnn*
 
 export LD_LIBRARY_PATH=/home/thulasi/.conda/envs/ctb/lib:$LD_LIBRARY_PATH
+
+
+my laptop
+
+cp cudnn-*-archive/include/cudnn*.h /home/shamila/anaconda3/envs/ditra/include/
+cp -P cudnn-*-archive/lib/libcudnn* /home/shamila/anaconda3/envs/ditra/lib/
+chmod a+r /home/shamila/anaconda3/envs/ditra/include/cudnn*.h /home/shamila/anaconda3/envs/ditra/lib/libcudnn*
+
+
+export LD_LIBRARY_PATH=/home/shamila/anaconda3/envs/ditra/lib:$LD_LIBRARY_PATH
+
+
+
 
 pip uninstall -y numpy
 pip install "numpy<2.0"

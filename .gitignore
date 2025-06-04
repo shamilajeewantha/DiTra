@@ -24,3 +24,7 @@ ui3/received_audio.wav
 ui3/nemo_msdd_configs/diar_infer_telephonic.yaml
 gemini/api_key.txt
 ui4/api_key.txt
+silero_vad/my_local_model.nemo
+.gitignore
+silero_vad/my_local_model
+silero_vad/2086-149220-0033.wav
