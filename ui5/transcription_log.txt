@@ -1,0 +1,280 @@
+2025-06-06 23:10:15,539 - INFO - Client connected
+2025-06-06 23:10:29,358 - INFO - 15 seconds reached. Saving audio...
+2025-06-06 23:10:33,411 - INFO - Transcription result with speaker tags:
+2025-06-06 23:10:33,412 - INFO - {"word": " See", "start": 2.6399999999999975, "end": 3.0799999999999987, "probability": 0.29257437586784363, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " you.", "start": 3.0799999999999987, "end": 3.52, "probability": 0.9724101424217224, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " I", "start": 3.52, "end": 3.66, "probability": 0.21098443865776062, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " need", "start": 3.66, "end": 3.8, "probability": 0.2565213143825531, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " to", "start": 3.8, "end": 3.84, "probability": 0.9526217579841614, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " see", "start": 3.84, "end": 4.1, "probability": 0.9733543395996094, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " you", "start": 4.1, "end": 4.34, "probability": 0.992608368396759, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " again.", "start": 4.34, "end": 4.84, "probability": 0.9976524710655212, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " What", "start": 5.34, "end": 5.44, "probability": 0.6486009955406189, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " brings", "start": 5.44, "end": 5.98, "probability": 0.965285062789917, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " you", "start": 5.98, "end": 6.2, "probability": 0.998456597328186, "speaker": "speaker0"}
+2025-06-06 23:10:33,412 - INFO - {"word": " back?", "start": 6.2, "end": 6.72, "probability": 0.995246946811676, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " I've", "start": 10.819999999999997, "end": 11.259999999999998, "probability": 0.3933742791414261, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " seen", "start": 11.259999999999998, "end": 11.7, "probability": 0.9188077449798584, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " you", "start": 11.7, "end": 11.92, "probability": 0.487888365983963, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " a", "start": 11.92, "end": 12.02, "probability": 0.6459180116653442, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " number", "start": 12.02, "end": 12.18, "probability": 0.989950954914093, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " of", "start": 12.18, "end": 12.42, "probability": 0.9897391200065613, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " times", "start": 12.42, "end": 12.62, "probability": 0.9914444088935852, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " for", "start": 12.62, "end": 12.88, "probability": 0.9390923976898193, "speaker": "unknown"}
+2025-06-06 23:10:33,412 - INFO - {"word": " this", "start": 12.88, "end": 13.1, "probability": 0.9912838935852051, "speaker": "unknown"}
+2025-06-06 23:10:33,413 - INFO - {"word": " have", "start": 13.1, "end": 13.28, "probability": 0.16515564918518066, "speaker": "unknown"}
+2025-06-06 23:10:33,413 - INFO - {"word": " a", "start": 13.28, "end": 13.34, "probability": 0.6013180017471313, "speaker": "unknown"}
+2025-06-06 23:10:33,413 - INFO - {"word": " night.", "start": 13.34, "end": 14.44, "probability": 0.6203781366348267, "speaker": "unknown"}
+2025-06-06 23:10:33,413 - INFO - {"word": " You", "start": 14.66, "end": 14.8, "probability": 0.6939852833747864, "speaker": "unknown"}
+2025-06-06 23:10:33,413 - INFO - {"word": " were...", "start": 14.8, "end": 15.02, "probability": 0.19628240913152695, "speaker": "unknown"}
+2025-06-06 23:10:33,413 - INFO - formatted_transcript :
+[{"speaker": "speaker0", "text": "See you. I need to see you again. What brings you"}, {"speaker": "unknown", "text": "back? I've seen you a number of times for this have a night. You were..."}]
+2025-06-06 23:10:43,183 - INFO - 15 seconds reached. Saving audio...
+2025-06-06 23:10:43,669 - INFO - Transcription result with speaker tags:
+2025-06-06 23:10:43,669 - INFO - {"word": " Since", "start": 0.0, "end": 0.34, "probability": 0.5008688569068909, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " I", "start": 0.34, "end": 0.44, "probability": 0.9896507263183594, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " got", "start": 0.44, "end": 0.62, "probability": 0.8251165747642517, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " hurt", "start": 0.62, "end": 0.82, "probability": 0.8700124025344849, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " on", "start": 0.82, "end": 0.98, "probability": 0.7082241177558899, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " the", "start": 0.98, "end": 1.1, "probability": 0.9805951118469238, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " job", "start": 1.1, "end": 1.34, "probability": 0.9976747632026672, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " three", "start": 1.34, "end": 1.64, "probability": 0.8815595507621765, "speaker": "speaker0"}
+2025-06-06 23:10:43,669 - INFO - {"word": " years", "start": 1.64, "end": 1.96, "probability": 0.9969896078109741, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " ago,", "start": 1.96, "end": 2.28, "probability": 0.9995802044868469, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " it's", "start": 2.66, "end": 2.68, "probability": 0.9670488834381104, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " something", "start": 2.68, "end": 2.9, "probability": 0.9766967296600342, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " that", "start": 2.9, "end": 3.28, "probability": 0.8868754506111145, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " just", "start": 3.28, "end": 3.44, "probability": 0.9754902124404907, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " keeps", "start": 3.44, "end": 3.6, "probability": 0.9860201478004456, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " coming", "start": 3.6, "end": 3.9, "probability": 0.9928754568099976, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " back.", "start": 3.9, "end": 4.54, "probability": 0.9991466999053955, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " You'll", "start": 5.02, "end": 5.14, "probability": 0.6435421854257584, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " be", "start": 5.14, "end": 5.32, "probability": 0.8032429218292236, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " fine", "start": 5.32, "end": 5.66, "probability": 0.9832711815834045, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " for", "start": 5.66, "end": 5.94, "probability": 0.9921519756317139, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " a", "start": 5.94, "end": 6.1, "probability": 0.9393933415412903, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " while", "start": 6.1, "end": 6.42, "probability": 0.9991843104362488, "speaker": "speaker0"}
+2025-06-06 23:10:43,670 - INFO - {"word": " and", "start": 6.42, "end": 6.74, "probability": 0.6381995677947998, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " then", "start": 6.74, "end": 7.02, "probability": 0.9447655081748962, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " I'll", "start": 7.02, "end": 8.4, "probability": 0.9267502725124359, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " end", "start": 8.4, "end": 8.68, "probability": 0.9186704754829407, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " down", "start": 8.68, "end": 9.02, "probability": 0.6449323892593384, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " or", "start": 9.02, "end": 9.32, "probability": 0.7994772791862488, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " I'll", "start": 9.32, "end": 9.48, "probability": 0.9034658074378967, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " move", "start": 9.48, "end": 9.72, "probability": 0.9962695837020874, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " a", "start": 9.72, "end": 10.0, "probability": 0.41903752088546753, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " weird", "start": 10.0, "end": 10.46, "probability": 0.9053834080696106, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " way", "start": 10.46, "end": 11.06, "probability": 0.9967005848884583, "speaker": "unknown"}
+2025-06-06 23:10:43,670 - INFO - {"word": " and", "start": 11.06, "end": 12.24, "probability": 0.6340517997741699, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " then", "start": 12.24, "end": 12.3, "probability": 0.9758726358413696, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " boom", "start": 12.3, "end": 12.42, "probability": 0.5100772380828857, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " let's", "start": 12.42, "end": 12.74, "probability": 0.4690244793891907, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " go", "start": 12.74, "end": 12.94, "probability": 0.9747163653373718, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " out", "start": 12.94, "end": 13.16, "probability": 0.8239177465438843, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " again.", "start": 13.16, "end": 13.62, "probability": 0.9964073300361633, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - {"word": " Un.", "start": 14.46, "end": 15.02, "probability": 0.025680087506771088, "speaker": "unknown"}
+2025-06-06 23:10:43,671 - INFO - formatted_transcript :
+[{"speaker": "speaker0", "text": "Since I got hurt on the job three years ago, it's something that just keeps coming back. You'll be fine for a while"}, {"speaker": "unknown", "text": "and then I'll end down or I'll move a weird way and then boom let's go out again. Un."}]
+2025-06-06 23:10:46,116 - ERROR - Error during conversion: Expecting value: line 1 column 1 (char 0)
+2025-06-06 23:10:56,997 - INFO - 15 seconds reached. Saving audio...
+2025-06-06 23:10:57,421 - INFO - Transcription result with speaker tags:
+2025-06-06 23:10:57,422 - INFO - {"word": " Fortunately,", "start": 0.0, "end": 0.46, "probability": 0.27605462074279785, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " that", "start": 1.58, "end": 1.76, "probability": 0.9768528938293457, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " can", "start": 1.76, "end": 2.16, "probability": 0.9732980728149414, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " happen", "start": 2.16, "end": 2.68, "probability": 0.9959343671798706, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " and", "start": 2.68, "end": 3.52, "probability": 0.4621816575527191, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " I", "start": 3.52, "end": 3.7, "probability": 0.9680037498474121, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " do", "start": 3.7, "end": 3.92, "probability": 0.9955192804336548, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " have", "start": 3.92, "end": 4.6, "probability": 0.9988986253738403, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " quite", "start": 4.6, "end": 4.84, "probability": 0.9873521327972412, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " a", "start": 4.84, "end": 5.04, "probability": 0.9994701743125916, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " few", "start": 5.04, "end": 5.14, "probability": 0.9995773434638977, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " patients", "start": 5.14, "end": 5.64, "probability": 0.9924191236495972, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " who", "start": 5.64, "end": 6.16, "probability": 0.9842368960380554, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " get", "start": 6.16, "end": 6.76, "probability": 0.9857584238052368, "speaker": "speaker0"}
+2025-06-06 23:10:57,422 - INFO - {"word": " reoccurring", "start": 6.76, "end": 7.36, "probability": 0.9115189015865326, "speaker": "unknown"}
+2025-06-06 23:10:57,422 - INFO - {"word": " episodes", "start": 7.36, "end": 7.82, "probability": 0.991459846496582, "speaker": "unknown"}
+2025-06-06 23:10:57,422 - INFO - {"word": " of", "start": 7.82, "end": 8.18, "probability": 0.9954942464828491, "speaker": "unknown"}
+2025-06-06 23:10:57,422 - INFO - {"word": " back", "start": 8.18, "end": 8.36, "probability": 0.5162448287010193, "speaker": "unknown"}
+2025-06-06 23:10:57,422 - INFO - {"word": " pain.", "start": 8.36, "end": 9.32, "probability": 0.962743878364563, "speaker": "unknown"}
+2025-06-06 23:10:57,422 - INFO - {"word": " Have", "start": 9.92, "end": 10.46, "probability": 0.9768338799476624, "speaker": "unknown"}
+2025-06-06 23:10:57,422 - INFO - {"word": " you", "start": 10.46, "end": 10.6, "probability": 0.9991681575775146, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " been", "start": 10.6, "end": 10.82, "probability": 0.9978680610656738, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " keeping", "start": 10.82, "end": 11.06, "probability": 0.9830814003944397, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " up", "start": 11.06, "end": 11.34, "probability": 0.9954954385757446, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " with", "start": 11.34, "end": 11.48, "probability": 0.998953104019165, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " the", "start": 11.48, "end": 11.6, "probability": 0.6756674647331238, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " therapy", "start": 11.6, "end": 11.88, "probability": 0.9990671277046204, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " that", "start": 11.88, "end": 12.26, "probability": 0.9927663803100586, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " we", "start": 12.26, "end": 12.42, "probability": 0.9948650002479553, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " had", "start": 12.42, "end": 12.76, "probability": 0.9773245453834534, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " you", "start": 12.76, "end": 13.02, "probability": 0.989163875579834, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " on", "start": 13.02, "end": 13.16, "probability": 0.9954982995986938, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " before?", "start": 13.16, "end": 13.8, "probability": 0.988734781742096, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " Oh,", "start": 14.42, "end": 14.62, "probability": 0.30813324451446533, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " which", "start": 14.64, "end": 14.8, "probability": 0.8934134244918823, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - {"word": " thing?", "start": 14.8, "end": 15.02, "probability": 0.2707435190677643, "speaker": "unknown"}
+2025-06-06 23:10:57,423 - INFO - formatted_transcript :
+[{"speaker": "speaker0", "text": "Fortunately, that can happen and I do have quite a few patients who get"}, {"speaker": "unknown", "text": "reoccurring episodes of back pain. Have you been keeping up with the therapy that we had you on before? Oh, which thing?"}]
+2025-06-06 23:11:10,822 - INFO - 15 seconds reached. Saving audio...
+2025-06-06 23:11:11,192 - INFO - Transcription result with speaker tags:
+2025-06-06 23:11:11,192 - INFO - {"word": " The", "start": 0.0, "end": 0.96, "probability": 0.28485405445098877, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " pills?", "start": 0.96, "end": 1.42, "probability": 0.9679635167121887, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " Actually", "start": 2.5, "end": 2.88, "probability": 0.8944622874259949, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " I", "start": 2.88, "end": 3.1, "probability": 0.5408797860145569, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " was", "start": 3.1, "end": 3.14, "probability": 0.9992200136184692, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " talking", "start": 3.14, "end": 3.4, "probability": 0.9969521760940552, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " about", "start": 3.4, "end": 3.7, "probability": 0.9986516833305359, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " the", "start": 3.7, "end": 3.92, "probability": 0.9791489243507385, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " physical", "start": 3.92, "end": 4.22, "probability": 0.976266622543335, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " therapy", "start": 4.22, "end": 5.04, "probability": 0.9992063641548157, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " that", "start": 5.04, "end": 6.3, "probability": 0.931563138961792, "speaker": "speaker0"}
+2025-06-06 23:11:11,193 - INFO - {"word": " we", "start": 6.3, "end": 6.44, "probability": 0.9980904459953308, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " had", "start": 6.44, "end": 6.62, "probability": 0.9450934529304504, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " you", "start": 6.62, "end": 6.8, "probability": 0.9046766757965088, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " doing.", "start": 6.8, "end": 7.3, "probability": 0.9828658699989319, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " The", "start": 8.0, "end": 8.24, "probability": 0.9692344665527344, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " pills", "start": 8.24, "end": 8.62, "probability": 0.9987480640411377, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " are", "start": 8.62, "end": 9.46, "probability": 0.6208807826042175, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " only", "start": 9.46, "end": 10.4, "probability": 0.9718288779258728, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " meant", "start": 10.4, "end": 10.78, "probability": 0.9973387122154236, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " for", "start": 10.78, "end": 11.18, "probability": 0.9946907162666321, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " short", "start": 11.18, "end": 11.46, "probability": 0.8252800107002258, "speaker": "unknown"}
+2025-06-06 23:11:11,193 - INFO - {"word": " term", "start": 11.46, "end": 11.78, "probability": 0.606718122959137, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " because", "start": 11.78, "end": 12.14, "probability": 0.8630310297012329, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " they", "start": 12.14, "end": 12.58, "probability": 0.9957389831542969, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " don't", "start": 12.58, "end": 12.94, "probability": 0.8819545209407806, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " actually", "start": 12.94, "end": 13.28, "probability": 0.9643906950950623, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " prevent", "start": 13.28, "end": 13.82, "probability": 0.9903382658958435, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " the", "start": 13.82, "end": 14.36, "probability": 0.9939324259757996, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " back", "start": 14.36, "end": 14.56, "probability": 0.9748279452323914, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " pain", "start": 14.56, "end": 14.78, "probability": 0.987212598323822, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - {"word": " from.", "start": 14.78, "end": 15.02, "probability": 0.9958741068840027, "speaker": "unknown"}
+2025-06-06 23:11:11,194 - INFO - formatted_transcript :
+[{"speaker": "speaker0", "text": "The pills? Actually I was talking about the physical therapy that"}, {"speaker": "unknown", "text": "we had you doing. The pills are only meant for short term because they don't actually prevent the back pain from."}]
+2025-06-06 23:11:23,682 - ERROR - Error receiving audio: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+2025-06-06 23:11:23,682 - INFO - Connection closed. Saving remaining audio...
+2025-06-06 23:11:24,120 - INFO - Transcription result with speaker tags:
+2025-06-06 23:11:24,120 - INFO - {"word": " coming", "start": 0.0, "end": 0.32, "probability": 0.7075079679489136, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " back.", "start": 0.32, "end": 1.04, "probability": 0.9976822137832642, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " Um,", "start": 1.2, "end": 1.36, "probability": 0.11690349876880646, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " see,", "start": 1.92, "end": 2.18, "probability": 0.45894551277160645, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " yeah,", "start": 2.28, "end": 2.54, "probability": 0.8095702528953552, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " once", "start": 2.6, "end": 2.8, "probability": 0.4803124964237213, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " my", "start": 2.8, "end": 3.18, "probability": 0.9847922325134277, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " back", "start": 3.18, "end": 3.62, "probability": 0.9794025421142578, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " started", "start": 3.62, "end": 3.92, "probability": 0.9954415559768677, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " feeling", "start": 3.92, "end": 4.24, "probability": 0.9888196587562561, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " better,", "start": 4.24, "end": 4.56, "probability": 0.997205913066864, "speaker": "speaker0"}
+2025-06-06 23:11:24,120 - INFO - {"word": " I", "start": 4.68, "end": 4.72, "probability": 0.992621898651123, "speaker": "speaker0"}
+2025-06-06 23:11:24,121 - INFO - {"word": " was", "start": 4.72, "end": 4.88, "probability": 0.9982442855834961, "speaker": "speaker0"}
+2025-06-06 23:11:24,121 - INFO - {"word": " happy", "start": 4.88, "end": 5.12, "probability": 0.9911824464797974, "speaker": "speaker0"}
+2025-06-06 23:11:24,121 - INFO - {"word": " about", "start": 5.12, "end": 5.42, "probability": 0.484163761138916, "speaker": "speaker0"}
+2025-06-06 23:11:24,121 - INFO - {"word": " to", "start": 5.42, "end": 6.68, "probability": 0.8923171758651733, "speaker": "speaker0"}
+2025-06-06 23:11:24,121 - INFO - {"word": " go", "start": 6.68, "end": 6.82, "probability": 0.9862923622131348, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " to", "start": 6.82, "end": 7.06, "probability": 0.81399005651474, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " the", "start": 7.06, "end": 7.14, "probability": 0.8879841566085815, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " therapist", "start": 7.14, "end": 7.54, "probability": 0.7361089587211609, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " anymore.", "start": 7.54, "end": 8.08, "probability": 0.8638807535171509, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " Why", "start": 8.3, "end": 8.82, "probability": 0.8298425674438477, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " was", "start": 8.82, "end": 9.08, "probability": 0.9873594641685486, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " that?", "start": 9.08, "end": 9.96, "probability": 0.9917663931846619, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " It", "start": 10.3, "end": 10.48, "probability": 0.15817810595035553, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " was", "start": 10.48, "end": 10.48, "probability": 0.8053300976753235, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " starting", "start": 10.48, "end": 10.98, "probability": 0.8316425681114197, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " to", "start": 10.98, "end": 11.14, "probability": 0.9984956979751587, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " become", "start": 11.14, "end": 11.32, "probability": 0.9984468817710876, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " kind", "start": 11.32, "end": 11.54, "probability": 0.955814003944397, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " of", "start": 11.54, "end": 11.7, "probability": 0.9978487491607666, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " a", "start": 11.7, "end": 11.78, "probability": 0.9842574596405029, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " hassle,", "start": 11.78, "end": 12.14, "probability": 0.9707100987434387, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " you", "start": 13.84, "end": 13.84, "probability": 0.38281577825546265, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - {"word": " know.", "start": 13.84, "end": 13.9, "probability": 0.9966099858283997, "speaker": "unknown"}
+2025-06-06 23:11:24,121 - INFO - formatted_transcript :
+[{"speaker": "speaker0", "text": "coming back. Um, see, yeah, once my back started feeling better, I was happy about to"}, {"speaker": "unknown", "text": "go to the therapist anymore. Why was that? It was starting to become kind of a hassle, you know."}]
+2025-06-06 23:11:34,300 - INFO - Converting to WAV...
+2025-06-06 23:11:34,310 - INFO - Saved as received_audio.wav
+2025-06-06 23:12:24,392 - INFO - Diarization output:
+Selected model is a bag of 1 models. You will see that many progress bars per track.
+Separated tracks will be stored in /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/htdemucs
+Separating track received_audio.wav
+[NeMo I 2025-06-06 23:12:09 nemo_logging:381] Loading pretrained diar_msdd_telephonic model from NGC
+[NeMo I 2025-06-06 23:12:09 nemo_logging:381] Found existing object /home/shamila/.cache/torch/NeMo/NeMo_2.0.0rc0/diar_msdd_telephonic/3c3697a0a46f945574fa407149975a13/diar_msdd_telephonic.nemo.
+[NeMo I 2025-06-06 23:12:09 nemo_logging:381] Re-using file from: /home/shamila/.cache/torch/NeMo/NeMo_2.0.0rc0/diar_msdd_telephonic/3c3697a0a46f945574fa407149975a13/diar_msdd_telephonic.nemo
+[NeMo I 2025-06-06 23:12:09 nemo_logging:381] Instantiating model from pre-trained checkpoint
+[NeMo I 2025-06-06 23:12:12 nemo_logging:381] PADDING: 16
+[NeMo I 2025-06-06 23:12:12 nemo_logging:381] PADDING: 16
+[NeMo I 2025-06-06 23:12:13 nemo_logging:381] Model EncDecDiarLabelModel was successfully restored from /home/shamila/.cache/torch/NeMo/NeMo_2.0.0rc0/diar_msdd_telephonic/3c3697a0a46f945574fa407149975a13/diar_msdd_telephonic.nemo.
+[NeMo I 2025-06-06 23:12:13 nemo_logging:381] PADDING: 16
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Loading pretrained vad_multilingual_marblenet model from NGC
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Found existing object /home/shamila/.cache/torch/NeMo/NeMo_2.0.0rc0/vad_multilingual_marblenet/670f425c7f186060b7a7268ba6dfacb2/vad_multilingual_marblenet.nemo.
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Re-using file from: /home/shamila/.cache/torch/NeMo/NeMo_2.0.0rc0/vad_multilingual_marblenet/670f425c7f186060b7a7268ba6dfacb2/vad_multilingual_marblenet.nemo
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Instantiating model from pre-trained checkpoint
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] PADDING: 16
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Model EncDecClassificationModel was successfully restored from /home/shamila/.cache/torch/NeMo/NeMo_2.0.0rc0/vad_multilingual_marblenet/670f425c7f186060b7a7268ba6dfacb2/vad_multilingual_marblenet.nemo.
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Multiscale Weights: [1, 1, 1, 1, 1]
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Clustering Parameters: {
+        "oracle_num_speakers": false,
+        "max_num_speakers": 8,
+        "enhanced_count_thres": 80,
+        "max_rp_threshold": 0.25,
+        "sparse_search_volume": 30,
+        "maj_vote_spk_count": false,
+        "chunk_cluster_count": 50,
+        "embeddings_per_chunk": 10000
+    }
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Number of files to diarize: 1
+[NeMo I 2025-06-06 23:12:14 nemo_logging:381] Split long audio file to avoid CUDA memory issue
+[NeMo I 2025-06-06 23:12:15 nemo_logging:381] Perform streaming frame-level VAD
+[NeMo I 2025-06-06 23:12:15 nemo_logging:381] Filtered duration for loading collection is  0.00 hours.
+[NeMo I 2025-06-06 23:12:15 nemo_logging:381] Dataset loaded with 2 items, total duration of  0.02 hours.
+[NeMo I 2025-06-06 23:12:15 nemo_logging:381] # 2 files loaded accounting to # 1 labels
+[NeMo I 2025-06-06 23:12:16 nemo_logging:381] Generating predictions with overlapping input segments
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Converting frame level prediction to speech/no-speech segment in start and end times format.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Subsegmentation for embedding extraction: scale0, /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/subsegments_scale0.json
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Extracting embeddings for Diarization
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Filtered duration for loading collection is  0.00 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Dataset loaded with 54 items, total duration of  0.01 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] # 54 files loaded accounting to # 1 labels
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Saved embedding files to /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Subsegmentation for embedding extraction: scale1, /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/subsegments_scale1.json
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Extracting embeddings for Diarization
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Filtered duration for loading collection is  0.00 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Dataset loaded with 55 items, total duration of  0.01 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] # 55 files loaded accounting to # 1 labels
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Saved embedding files to /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Subsegmentation for embedding extraction: scale2, /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/subsegments_scale2.json
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Extracting embeddings for Diarization
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Filtered duration for loading collection is  0.00 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Dataset loaded with 62 items, total duration of  0.01 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] # 62 files loaded accounting to # 1 labels
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Saved embedding files to /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Subsegmentation for embedding extraction: scale3, /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/subsegments_scale3.json
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Extracting embeddings for Diarization
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Filtered duration for loading collection is  0.00 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Dataset loaded with 77 items, total duration of  0.01 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] # 77 files loaded accounting to # 1 labels
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Saved embedding files to /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Subsegmentation for embedding extraction: scale4, /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/subsegments_scale4.json
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Extracting embeddings for Diarization
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Filtered duration for loading collection is  0.00 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Dataset loaded with 105 items, total duration of  0.01 hours.
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] # 105 files loaded accounting to # 1 labels
+[NeMo I 2025-06-06 23:12:17 nemo_logging:381] Saved embedding files to /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Outputs are saved in /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs directory
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Loading embedding pickle file of scale:0 at /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings/subsegments_scale0_embeddings.pkl
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Loading embedding pickle file of scale:1 at /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings/subsegments_scale1_embeddings.pkl
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Loading embedding pickle file of scale:2 at /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings/subsegments_scale2_embeddings.pkl
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Loading embedding pickle file of scale:3 at /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings/subsegments_scale3_embeddings.pkl
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Loading embedding pickle file of scale:4 at /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/embeddings/subsegments_scale4_embeddings.pkl
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Loading cluster label file from /home/shamila/uni/github_desktop/DiTra/ui5/temp_outputs/speaker_outputs/subsegments_scale4_cluster.label
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Filtered duration for loading collection is 0.000000.
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Total 1 session files loaded accounting to # 1 audio clips
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381]      [Threshold: 0.7000] [use_clus_as_main=False] [diar_window=50]
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Number of files to diarize: 1
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Number of files to diarize: 1
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Number of files to diarize: 1
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381] Number of files to diarize: 1
+[NeMo I 2025-06-06 23:12:18 nemo_logging:381]   
+    
+

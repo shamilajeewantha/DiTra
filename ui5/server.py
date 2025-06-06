@@ -22,7 +22,7 @@ executor = ThreadPoolExecutor(max_workers=8)  # Global thread pool
 
 
 
-DURATION = 10  # Duration in seconds for which audio is saved
+DURATION = 15  # Duration in seconds for which audio is saved
 
 # Set up the first logger for transcription log
 logger1 = logging.getLogger("logger1")

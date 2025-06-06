@@ -1,0 +1,14 @@
+2025-06-06 23:10:15,553 - INFO - Diarization Client connected
+2025-06-06 23:10:19,475 - INFO - Start time: 355.008
+2025-06-06 23:10:29,819 - INFO - Processed diarization data: Start time: 0.0, Duration : 6.17, Speaker: speaker0
+2025-06-06 23:10:29,980 - INFO - Processed diarization data: Start time: 31.33, Duration : 0.08, Speaker: speaker1
+2025-06-06 23:10:39,368 - INFO - Processed diarization data: Start time: 31.5, Duration : 10.19, Speaker: speaker0
+2025-06-06 23:10:39,537 - INFO - Processed diarization data: Start time: 59.5, Duration : 0.5, Speaker: speaker1
+2025-06-06 23:10:52,670 - INFO - Processed diarization data: Start time: 60.0, Duration : 10.02, Speaker: speaker0
+2025-06-06 23:10:53,013 - INFO - Processed diarization data: Start time: 99.88, Duration : 0.1, Speaker: speaker1
+2025-06-06 23:10:57,367 - INFO - Processed diarization data: Start time: 100.9, Duration : 1.8, Speaker: speaker0
+2025-06-06 23:10:59,667 - INFO - Processed diarization data: Start time: 113.62, Duration : 0.27, Speaker: speaker1
+2025-06-06 23:11:12,808 - INFO - Processed diarization data: Start time: 120.87, Duration : 3.27, Speaker: speaker0
+2025-06-06 23:11:12,982 - INFO - Processed diarization data: Start time: 160.4, Duration : 0.05, Speaker: speaker1
+2025-06-06 23:13:38,702 - ERROR - Error receiving diarization data: (1001, '')
+2025-06-06 23:13:38,702 - INFO - Diarization Connection closed.

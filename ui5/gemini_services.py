@@ -41,7 +41,7 @@ def generate(mode="offline", full_transcript=""):
         prompt = (
             "In the speaker diarization transcript above, some words are potentially assigned to the wrong speaker. "
             "Please correct those words and move them to the right speaker. Assign all unknown words to an appropriate speaker."
-            "The order of the text is correct. Directly show the corrected lines in the exact same format without explaining what changes were made or why you made those changes. Make sure the result is not a code block. \n\n"
+            "The order of the text is correct. Directly show the corrected lines in the exact same format without explaining what changes were made or why you made those changes. Speakers should be labelled like 'speaker0'. Make sure the result is not a code block. \n\n"
             + transcript_text
         )
 
